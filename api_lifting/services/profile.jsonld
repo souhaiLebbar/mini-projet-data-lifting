@@ -1,6 +1,6 @@
 {
     "@context": {
-      "@vocab": "http://ns.inria.fr/sparql-micro-service/api#",
+      "@vocab": "https://data.nasa.gov/ontologies/atmonto/ATM##",
       
       "arrival": { "@type": "@id" },
       "link":  { "@type": "@id" }
