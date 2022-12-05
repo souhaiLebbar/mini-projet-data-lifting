@@ -1,0 +1,77 @@
+{
+    "@context": ["http://www.w3.org/ns/csvw",{"@language":"en"}],
+    "url": "data/airports.dat",
+    "tableSchema": {
+        "aboutUrl": "http://example.org/Airports/{IATA}",
+        "columns": [{
+            "name": "Airport_ID",
+            "datatype" : "number",
+            "propertyUrl" : "schema:identifier"
+        },
+        {
+            "name":"AirportName",
+            "datatype" : "string",
+            "propertyUrl" : "https://data.nasa.gov/ontologies/atmonto/NAS#/airportName"
+        },
+        {
+            "name":"City",
+            "datatype" : "string",
+            "suppressOutput": true
+        },
+        {
+            "name":"Country",
+            "datatype" : "string",
+            "suppressOutput": true
+        },
+        {
+            "name":"IATA",
+            "datatype" : "string",
+            "propertyUrl" : "https://data.nasa.gov/ontologies/atmonto/NAS#/iataAirportCode"
+        },
+        {
+            "name":"ICAO",
+            "datatype" : "string",
+            "propertyUrl" : "https://data.nasa.gov/ontologies/atmonto/NAS#/icaoAirportCode"
+        },
+        {
+            "name":"Latitude",
+            "datatype":"decimal",
+            "propertyUrl" : "schema:Latitude"
+        },
+        {
+            "name":"Longitude",
+            "datatype": "decimal",
+            "propertyUrl" : "schema:Longitude"
+        },
+        {
+            "name" : "Altitude",
+            "datatype" : "decimal",
+            "suppressOutput": true
+        },
+        {
+            "name" : "Time_zone_hours",
+            "propertyUrl" : "https://data.nasa.gov/ontologies/atmonto/NAS#/hoursOffsetFromUTC"
+        },
+        {
+            "name" : "DST",
+            "suppressOutput": true
+        },
+        {
+            "name" : "Time_zone_string",
+            "propertyUrl" : "https://data.nasa.gov/ontologies/atmonto/NAS#/withinTimeZone"
+        },
+        {
+            "name" : "Type",
+            "suppressOutput": true
+        },
+        {
+            "name" : "Source",
+            "suppressOutput": true
+        },{
+            "virtual": true,
+            "propertyUrl": "schema:hasMap",
+            "valueUrl": "https://www.google.com/maps/@{Latitude},{Longitude},7z"
+        }
+        ]
+      }
+}
