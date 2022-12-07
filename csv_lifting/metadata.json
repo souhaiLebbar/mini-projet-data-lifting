@@ -2,16 +2,19 @@
     "@context": ["http://www.w3.org/ns/csvw",{"@language":"en"}],
     "url": "data/airports.dat",
     "tableSchema": {
+        "primaryKey" : "IATA",
         "aboutUrl": "http://example.org/Airports/{IATA}",
         "columns": [{
             "name": "Airport_ID",
-            "datatype" : "number",
-            "propertyUrl" : "schema:identifier"
+            "datatype" : "decimal",
+            "propertyUrl" : "schema:identifier",
+            "dc:description": "Unique OpenFlights identifier for this airport."
         },
         {
             "name":"AirportName",
             "datatype" : "string",
-            "propertyUrl" : "https://data.nasa.gov/ontologies/atmonto/NAS#/airportName"
+            "propertyUrl" : "https://data.nasa.gov/ontologies/atmonto/NAS#/airportName",
+            "dc:description" : "Name of airport. May or may not contain the City name."
         },
         {
             "name":"City",
@@ -26,22 +29,26 @@
         {
             "name":"IATA",
             "datatype" : "string",
-            "propertyUrl" : "https://data.nasa.gov/ontologies/atmonto/NAS#/iataAirportCode"
+            "propertyUrl" : "https://data.nasa.gov/ontologies/atmonto/NAS#/iataAirportCode",
+            "dc:description" : "3-letter IATA code. Null if not assigned/unknown."
         },
         {
             "name":"ICAO",
             "datatype" : "string",
-            "propertyUrl" : "https://data.nasa.gov/ontologies/atmonto/NAS#/icaoAirportCode"
+            "propertyUrl" : "https://data.nasa.gov/ontologies/atmonto/NAS#/icaoAirportCode",
+            "dc:description" : "4-letter ICAO code, Null if not assigned."
         },
         {
             "name":"Latitude",
             "datatype":"decimal",
-            "propertyUrl" : "schema:Latitude"
+            "propertyUrl" : "schema:Latitude", 
+            "dc:description" : "Decimal degrees, usually to six significant digits. Negative is South, positive is North."
         },
         {
             "name":"Longitude",
             "datatype": "decimal",
-            "propertyUrl" : "schema:Longitude"
+            "propertyUrl" : "schema:Longitude",
+            "dc:description" : "Decimal degrees, usually to six significant digits. Negative is West, positive is East."
         },
         {
             "name" : "Altitude",
@@ -50,7 +57,8 @@
         },
         {
             "name" : "Time_zone_hours",
-            "propertyUrl" : "https://data.nasa.gov/ontologies/atmonto/NAS#/hoursOffsetFromUTC"
+            "propertyUrl" : "https://data.nasa.gov/ontologies/atmonto/NAS#/hoursOffsetFromUTC",
+            "dc:description" : "Hours offset from UTC. Fractional hours are expressed as decimals, eg. India is 5.5."
         },
         {
             "name" : "DST",
@@ -58,7 +66,8 @@
         },
         {
             "name" : "Time_zone_string",
-            "propertyUrl" : "https://data.nasa.gov/ontologies/atmonto/NAS#/withinTimeZone"
+            "propertyUrl" : "https://data.nasa.gov/ontologies/atmonto/NAS#/withinTimeZone",
+            "dc:description" : "Timezone in tz (Olson) format, eg. America/Los_Angeles."
         },
         {
             "name" : "Type",
@@ -70,7 +79,8 @@
         },{
             "virtual": true,
             "propertyUrl": "schema:hasMap",
-            "valueUrl": "https://www.google.com/maps/@{Latitude},{Longitude},7z"
+            "valueUrl": "https://www.google.com/maps/@{Latitude},{Longitude},7z",
+            "dc:description" : "map pin in google map."
         }
         ]
       }
