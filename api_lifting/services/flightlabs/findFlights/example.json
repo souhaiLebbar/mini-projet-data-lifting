@@ -1,0 +1,128 @@
+{
+    "success": true,
+    "data": [
+        {
+            "aircraft": {
+                "iataCode": "B738",
+                "icao24": "4D2250",
+                "icaoCode": "B738",
+                "regNumber": "9H-QEM"
+            },
+            "airline": {
+                "iataCode": "FR",
+                "icaoCode": "RYR"
+            },
+            "arrival": {
+                "iataCode": "AGA",
+                "icaoCode": "GMAD"
+            },
+            "departure": {
+                "iataCode": "HHN",
+                "icaoCode": "EDFH"
+            },
+            "flight": {
+                "iataNumber": "FR6176",
+                "icaoNumber": "RYR7LY",
+                "number": "6176"
+            },
+            "geography": {
+                "altitude": 11277.6,
+                "direction": 214,
+                "latitude": 40.14,
+                "longitude": -3.69
+            },
+            "speed": {
+                "horizontal": 740.8,
+                "isGround": 0,
+                "vspeed": 0
+            },
+            "status": "en-route",
+            "system": {
+                "squawk": null,
+                "updated": 1670425264
+            }
+        },
+        {
+            "aircraft": {
+                "iataCode": "DA42",
+                "icao24": "4401AB",
+                "icaoCode": "DA42",
+                "regNumber": "OE-UDW"
+            },
+            "airline": {
+                "iataCode": "",
+                "icaoCode": ""
+            },
+            "arrival": {
+                "iataCode": "AGA",
+                "icaoCode": "GMAD"
+            },
+            "departure": {
+                "iataCode": "XRY",
+                "icaoCode": "LEJR"
+            },
+            "flight": {
+                "iataNumber": "XXD",
+                "icaoNumber": "OEUDW",
+                "number": "XXF"
+            },
+            "geography": {
+                "altitude": 0,
+                "direction": 2,
+                "latitude": 30.33,
+                "longitude": -9.41
+            },
+            "speed": {
+                "horizontal": 38.892,
+                "isGround": 1,
+                "vspeed": 0
+            },
+            "status": "landed",
+            "system": {
+                "squawk": null,
+                "updated": 1670424961
+            }
+        },
+        {
+            "aircraft": {
+                "iataCode": "E55P",
+                "icao24": "3CE212",
+                "icaoCode": "E55P",
+                "regNumber": "D-CMXM"
+            },
+            "airline": {
+                "iataCode": "AHO",
+                "icaoCode": "AHO"
+            },
+            "arrival": {
+                "iataCode": "AGA",
+                "icaoCode": "GMAD"
+            },
+            "departure": {
+                "iataCode": "CGN",
+                "icaoCode": "EDDK"
+            },
+            "flight": {
+                "iataNumber": "XXD",
+                "icaoNumber": "AHO243X",
+                "number": "XXF"
+            },
+            "geography": {
+                "altitude": 12496.8,
+                "direction": 210,
+                "latitude": 49.73,
+                "longitude": 3.22
+            },
+            "speed": {
+                "horizontal": 775.988,
+                "isGround": 0,
+                "vspeed": 0
+            },
+            "status": "en-route",
+            "system": {
+                "squawk": null,
+                "updated": 1670425302
+            }
+        }
+    ]
+}

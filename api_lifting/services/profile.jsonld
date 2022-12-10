@@ -1,9 +1,0 @@
-{
-    "@context": {
-      "@vocab": "https://data.nasa.gov/ontologies/atmonto/ATM##",
-      
-      "arrival": { "@type": "@id" },
-      "link":  { "@type": "@id" }
-    }
-  }
-

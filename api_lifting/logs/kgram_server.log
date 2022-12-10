@@ -1,0 +1,398 @@
+2022-12-10 11:53:04 INFO  webservice.EmbeddedJettyServer.main:117 [] - Loading log4j configuration: file:/usr/local/corese/log4j2.xml
+2022-12-10 11:53:04 INFO  webservice.EmbeddedJettyServer.main:118 [] - To override log4j configuration add JVM option: -Dlog4j.configurationFile=file:/home/.../your_log4j2.xml
+2022-12-10 11:53:04 INFO  core.Corese.init:14 [] - Corese, Inria: Sat Dec 10 11:53:04 UTC 2022
+2022-12-10 11:53:04 INFO  webservice.EmbeddedJettyServer.main:231 [] - Profile: file:///tmp/corese-profile-sms.ttl
+2022-12-10 11:53:05 INFO  webservice.EmbeddedJettyServer.main:255 [] - su
+2022-12-10 11:53:05 INFO  webservice.EmbeddedJettyServer.main:300 [] - Reentrant query
+2022-12-10 11:53:06 INFO  webservice.EmbeddedJettyServer.main:306 [] - BASE_URI = http://localhost:8081/
+2022-12-10 11:53:06 INFO  webservice.EmbeddedJettyServer.main:308 [] - ----------------------------------------------
+2022-12-10 11:53:06 INFO  webservice.EmbeddedJettyServer.main:309 [] - Corese/KGRAM endpoint started on http://localhost:8081/sparql
+2022-12-10 11:53:06 INFO  log.Log.initialized:192 [] - Logging initialized @4939ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-12-10 11:53:06 INFO  vfs.VfsLog.info:122 [] - Using "/tmp/vfs_cache" as temporary files store.
+2022-12-10 11:53:09 INFO  webservice.EmbeddedJettyServer.extractResourceDir:428 [] - Extracting directory webapp to file:///tmp/root
+2022-12-10 11:53:10 INFO  webservice.EmbeddedJettyServer.main:319 [] - Webapp dir: file:///tmp/root/webapp
+2022-12-10 11:53:10 INFO  webservice.EmbeddedJettyServer.main:324 [] - Corese/KGRAM webapp UI started on http://localhost:8081
+2022-12-10 11:53:10 INFO  webservice.EmbeddedJettyServer.main:325 [] - ----------------------------------------------
+2022-12-10 11:53:10 WARN  handler.ContextHandler.setContextPath:1492 [] - o.e.j.s.ServletContextHandler@6820dd90{/,null,UNAVAILABLE} contextPath ends with /*
+2022-12-10 11:53:10 WARN  handler.ContextHandler.setContextPath:1503 [] - Empty contextPath
+2022-12-10 11:53:10 INFO  server.Server.doStart:373 [] - jetty-9.4.z-SNAPSHOT
+2022-12-10 11:53:10 INFO  handler.ContextHandler.doStart:788 [] - Started o.e.j.s.h.ContextHandler@a2dfad{/,null,AVAILABLE}
+2022-12-10 11:53:13 INFO  handler.ContextHandler.doStart:788 [] - Started o.e.j.s.ServletContextHandler@6820dd90{/,null,AVAILABLE}
+2022-12-10 11:53:13 INFO  server.AbstractConnector.doStart:286 [] - Started ServerConnector@6c13a198{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+2022-12-10 11:53:13 INFO  server.Server.doStart:441 [] - Started @11303ms
+2022-12-10 11:53:13 INFO  webservice.SPARQLRestAPI.initRDF:153 [] - entering initRDF
+2022-12-10 11:53:13 INFO  webservice.SPARQLRestAPI.init:202 [] - Load: file:///tmp/corese-profile-sms.ttl
+2022-12-10 11:53:13 INFO  webservice.Profile.init:309 [] - Load: http://a119f5d28a9c:8081/data/profile.ttl
+2022-12-10 11:53:13 INFO  load.Service.load:452 [] - load accept format: http://a119f5d28a9c:8081/data/profile.ttl text/turtle
+2022-12-10 11:53:14 INFO  webservice.Profile.init:312 [] - Load: file:///tmp/corese-profile-sms.ttl
+2022-12-10 11:53:14 INFO  webservice.Profile.initParameter:423 [] - Parameter Context
+2022-12-10 11:53:14 INFO  webservice.Profile.initParameter:424 [] - level: PRIVATE
+
+2022-12-10 11:53:14 INFO  webservice.SPARQLRestAPI.init:176 [] - key: 850a1258-ec43-4ab3-9b71-cacd87a5c4b6
+2022-12-10 12:07:25 INFO  webservice.EmbeddedJettyServer.main:117 [] - Loading log4j configuration: file:/usr/local/corese/log4j2.xml
+2022-12-10 12:07:25 INFO  webservice.EmbeddedJettyServer.main:118 [] - To override log4j configuration add JVM option: -Dlog4j.configurationFile=file:/home/.../your_log4j2.xml
+2022-12-10 12:07:26 INFO  core.Corese.init:14 [] - Corese, Inria: Sat Dec 10 12:07:26 UTC 2022
+2022-12-10 12:07:26 INFO  webservice.EmbeddedJettyServer.main:231 [] - Profile: file:///tmp/corese-profile-sms.ttl
+2022-12-10 12:07:26 INFO  webservice.EmbeddedJettyServer.main:255 [] - su
+2022-12-10 12:07:26 INFO  webservice.EmbeddedJettyServer.main:300 [] - Reentrant query
+2022-12-10 12:07:27 INFO  webservice.EmbeddedJettyServer.main:306 [] - BASE_URI = http://localhost:8081/
+2022-12-10 12:07:27 INFO  webservice.EmbeddedJettyServer.main:308 [] - ----------------------------------------------
+2022-12-10 12:07:27 INFO  webservice.EmbeddedJettyServer.main:309 [] - Corese/KGRAM endpoint started on http://localhost:8081/sparql
+2022-12-10 12:07:27 INFO  log.Log.initialized:192 [] - Logging initialized @6883ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-12-10 12:07:27 INFO  vfs.VfsLog.info:122 [] - Using "/tmp/vfs_cache" as temporary files store.
+2022-12-10 12:07:33 INFO  webservice.EmbeddedJettyServer.extractResourceDir:433 [] - Overwritting directory webapp in file:///tmp/root
+2022-12-10 12:07:35 INFO  webservice.EmbeddedJettyServer.main:319 [] - Webapp dir: file:///tmp/root/webapp
+2022-12-10 12:07:35 INFO  webservice.EmbeddedJettyServer.main:324 [] - Corese/KGRAM webapp UI started on http://localhost:8081
+2022-12-10 12:07:35 INFO  webservice.EmbeddedJettyServer.main:325 [] - ----------------------------------------------
+2022-12-10 12:07:36 WARN  handler.ContextHandler.setContextPath:1492 [] - o.e.j.s.ServletContextHandler@6820dd90{/,null,UNAVAILABLE} contextPath ends with /*
+2022-12-10 12:07:36 WARN  handler.ContextHandler.setContextPath:1503 [] - Empty contextPath
+2022-12-10 12:07:36 INFO  server.Server.doStart:373 [] - jetty-9.4.z-SNAPSHOT
+2022-12-10 12:07:36 INFO  handler.ContextHandler.doStart:788 [] - Started o.e.j.s.h.ContextHandler@a2dfad{/,null,AVAILABLE}
+2022-12-10 12:07:45 INFO  handler.ContextHandler.doStart:788 [] - Started o.e.j.s.ServletContextHandler@6820dd90{/,null,AVAILABLE}
+2022-12-10 12:07:45 INFO  server.AbstractConnector.doStart:286 [] - Started ServerConnector@58a47b77{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+2022-12-10 12:07:45 INFO  server.Server.doStart:441 [] - Started @24939ms
+2022-12-10 12:07:46 INFO  webservice.SPARQLRestAPI.initRDF:153 [] - entering initRDF
+2022-12-10 12:07:46 INFO  webservice.SPARQLRestAPI.init:202 [] - Load: file:///tmp/corese-profile-sms.ttl
+2022-12-10 12:07:46 INFO  webservice.Profile.init:309 [] - Load: http://a119f5d28a9c:8081/data/profile.ttl
+2022-12-10 12:07:46 INFO  load.Service.load:452 [] - load accept format: http://a119f5d28a9c:8081/data/profile.ttl text/turtle
+2022-12-10 12:07:47 INFO  webservice.Profile.init:312 [] - Load: file:///tmp/corese-profile-sms.ttl
+2022-12-10 12:07:48 INFO  webservice.Profile.initParameter:423 [] - Parameter Context
+2022-12-10 12:07:48 INFO  webservice.Profile.initParameter:424 [] - level: PRIVATE
+
+2022-12-10 12:07:48 INFO  webservice.SPARQLRestAPI.init:176 [] - key: 2a4387a0-d7b2-4424-8e05-0316a606e581
+2022-12-10 12:09:59 INFO  webservice.SPARQLRestAPI.getRDFGraphNTripleForPost:829 [] - getRDFGraphNTripleForPost
+2022-12-10 12:09:59 INFO  webservice.SPARQLResult.getResultFormat:90 [] - Endpoint URL: http://corese:8081/sparql
+2022-12-10 12:09:59 INFO  webservice.SPARQLResult.getResultFormat:96 [] - Query: construct WHERE { ?s ?p ?o } 
+2022-12-10 12:09:59 INFO  webservice.EventManager.log:72 [] - Workflow Context:
+default-graph-uri : "(<http://localhost/service/resp-graph-63947717479209.86451169> )"^^dt:list
+st:remoteHost : "172.19.0.4"
+st:service : "http://ns.inria.fr/sparql-template/user"
+request : "[org.eclipse.jetty.server.Request:Request(POST //corese:8081/sparql)@63d0127f]"^^dt:pointer
+url : <http://corese:8081/sparql>
+user query: true
+level: PRIVATE
+
+2022-12-10 12:09:59 INFO  webservice.EventManager.log:73 [] - {st:count="[Map: size=1]"^^dt:map, st:date="[Map: size=1]"^^dt:map, st:host="[Map: size=1]"^^dt:map, st:hostlite="[Map: size=1]"^^dt:map}
+2022-12-10 12:09:59 INFO  webservice.EventManager.log:74 [] - {"http://ns.inria.fr/sparql-template/user"=1}
+2022-12-10 12:09:59 INFO  webservice.EventManager.log:76 [] - {"172.19.0.4"=1}
+2022-12-10 12:09:59 INFO  webservice.SPARQLRestAPI.updateTriplesDirect:881 [] - updateTriplesDirect
+2022-12-10 12:09:59 INFO  webservice.SPARQLRestAPI.updateTriplesDirect:884 [] - DROP SILENT GRAPH <http://localhost/service/resp-graph-63947717479209.86451169>
+2022-12-10 12:09:59 INFO  webservice.EventManager.log:72 [] - Workflow Context:
+st:remoteHost : "172.19.0.4"
+st:service : "http://ns.inria.fr/sparql-template/user"
+request : "[org.eclipse.jetty.server.Request:Request(POST //corese:8081/sparql)@4ce61855]"^^dt:pointer
+url : <http://corese:8081/sparql>
+user query: true
+level: PRIVATE
+
+2022-12-10 12:09:59 INFO  webservice.EventManager.log:73 [] - {st:count="[Map: size=1]"^^dt:map, st:date="[Map: size=1]"^^dt:map, st:host="[Map: size=1]"^^dt:map, st:hostlite="[Map: size=1]"^^dt:map}
+2022-12-10 12:09:59 INFO  webservice.EventManager.log:74 [] - {"http://ns.inria.fr/sparql-template/user"=2}
+2022-12-10 12:09:59 INFO  webservice.EventManager.log:76 [] - {"172.19.0.4"=2}
+2022-12-10 12:13:54 INFO  webservice.SPARQLRestAPI.getTriplesJSONForPost:712 [] - getTriplesJSONForPost
+2022-12-10 12:13:54 INFO  webservice.SPARQLResult.getResultFormat:90 [] - Endpoint URL: http://corese:8081/sparql
+2022-12-10 12:13:54 INFO  webservice.SPARQLResult.getResultFormat:96 [] - Query: select * where {?s ?p ?o}
+2022-12-10 12:13:54 INFO  webservice.EventManager.log:72 [] - Workflow Context:
+default-graph-uri : "(<http://localhost/service/resp-graph-63947802099d64.70686051> )"^^dt:list
+st:remoteHost : "172.19.0.4"
+st:service : "http://ns.inria.fr/sparql-template/user"
+request : "[org.eclipse.jetty.server.Request:Request(POST //corese:8081/sparql)@187c853c]"^^dt:pointer
+url : <http://corese:8081/sparql>
+user query: true
+level: PRIVATE
+
+2022-12-10 12:13:54 INFO  webservice.EventManager.log:73 [] - {st:count="[Map: size=1]"^^dt:map, st:date="[Map: size=1]"^^dt:map, st:host="[Map: size=1]"^^dt:map, st:hostlite="[Map: size=1]"^^dt:map}
+2022-12-10 12:13:54 INFO  webservice.EventManager.log:74 [] - {"http://ns.inria.fr/sparql-template/user"=3}
+2022-12-10 12:13:54 INFO  webservice.EventManager.log:76 [] - {"172.19.0.4"=3}
+2022-12-10 12:13:54 INFO  webservice.SPARQLRestAPI.updateTriplesDirect:881 [] - updateTriplesDirect
+2022-12-10 12:13:54 INFO  webservice.SPARQLRestAPI.updateTriplesDirect:884 [] - DROP SILENT GRAPH <http://localhost/service/resp-graph-63947802099d64.70686051>
+2022-12-10 12:13:54 INFO  webservice.EventManager.log:72 [] - Workflow Context:
+st:remoteHost : "172.19.0.4"
+st:service : "http://ns.inria.fr/sparql-template/user"
+request : "[org.eclipse.jetty.server.Request:Request(POST //corese:8081/sparql)@5d666717]"^^dt:pointer
+url : <http://corese:8081/sparql>
+user query: true
+level: PRIVATE
+
+2022-12-10 12:13:54 INFO  webservice.EventManager.log:73 [] - {st:count="[Map: size=1]"^^dt:map, st:date="[Map: size=1]"^^dt:map, st:host="[Map: size=1]"^^dt:map, st:hostlite="[Map: size=1]"^^dt:map}
+2022-12-10 12:13:54 INFO  webservice.EventManager.log:74 [] - {"http://ns.inria.fr/sparql-template/user"=4}
+2022-12-10 12:13:54 INFO  webservice.EventManager.log:76 [] - {"172.19.0.4"=4}
+2022-12-10 12:18:14 INFO  webservice.SPARQLRestAPI.getTriplesJSONForPost:712 [] - getTriplesJSONForPost
+2022-12-10 12:18:14 INFO  webservice.SPARQLResult.getResultFormat:90 [] - Endpoint URL: http://corese:8081/sparql
+2022-12-10 12:18:14 INFO  webservice.SPARQLResult.getResultFormat:96 [] - Query: select * where {?s ?p ?o}
+2022-12-10 12:18:14 INFO  webservice.EventManager.log:72 [] - Workflow Context:
+default-graph-uri : "(<http://localhost/service/resp-graph-63947906af5887.17652762> )"^^dt:list
+st:remoteHost : "172.19.0.4"
+st:service : "http://ns.inria.fr/sparql-template/user"
+request : "[org.eclipse.jetty.server.Request:Request(POST //corese:8081/sparql)@51c549eb]"^^dt:pointer
+url : <http://corese:8081/sparql>
+user query: true
+level: PRIVATE
+
+2022-12-10 12:18:14 INFO  webservice.EventManager.log:73 [] - {st:count="[Map: size=1]"^^dt:map, st:date="[Map: size=1]"^^dt:map, st:host="[Map: size=1]"^^dt:map, st:hostlite="[Map: size=1]"^^dt:map}
+2022-12-10 12:18:14 INFO  webservice.EventManager.log:74 [] - {"http://ns.inria.fr/sparql-template/user"=5}
+2022-12-10 12:18:14 INFO  webservice.EventManager.log:76 [] - {"172.19.0.4"=5}
+2022-12-10 12:18:14 INFO  webservice.SPARQLRestAPI.updateTriplesDirect:881 [] - updateTriplesDirect
+2022-12-10 12:18:14 INFO  webservice.SPARQLRestAPI.updateTriplesDirect:884 [] - DROP SILENT GRAPH <http://localhost/service/resp-graph-63947906af5887.17652762>
+2022-12-10 12:18:14 INFO  webservice.EventManager.log:72 [] - Workflow Context:
+st:remoteHost : "172.19.0.4"
+st:service : "http://ns.inria.fr/sparql-template/user"
+request : "[org.eclipse.jetty.server.Request:Request(POST //corese:8081/sparql)@797fc749]"^^dt:pointer
+url : <http://corese:8081/sparql>
+user query: true
+level: PRIVATE
+
+2022-12-10 12:18:14 INFO  webservice.EventManager.log:73 [] - {st:count="[Map: size=1]"^^dt:map, st:date="[Map: size=1]"^^dt:map, st:host="[Map: size=1]"^^dt:map, st:hostlite="[Map: size=1]"^^dt:map}
+2022-12-10 12:18:14 INFO  webservice.EventManager.log:74 [] - {"http://ns.inria.fr/sparql-template/user"=6}
+2022-12-10 12:18:14 INFO  webservice.EventManager.log:76 [] - {"172.19.0.4"=6}
+2022-12-10 12:19:39 INFO  webservice.SPARQLRestAPI.getTriplesJSONForPost:712 [] - getTriplesJSONForPost
+2022-12-10 12:19:39 INFO  webservice.SPARQLResult.getResultFormat:90 [] - Endpoint URL: http://corese:8081/sparql
+2022-12-10 12:19:39 INFO  webservice.SPARQLResult.getResultFormat:96 [] - Query: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT * WHERE {
+  ?sub ?pred ?obj .
+} LIMIT 10
+2022-12-10 12:19:39 INFO  webservice.EventManager.log:72 [] - Workflow Context:
+default-graph-uri : "(<http://localhost/service/resp-graph-6394795b763171.96252599> )"^^dt:list
+st:remoteHost : "172.19.0.4"
+st:service : "http://ns.inria.fr/sparql-template/user"
+request : "[org.eclipse.jetty.server.Request:Request(POST //corese:8081/sparql)@501c3a30]"^^dt:pointer
+url : <http://corese:8081/sparql>
+user query: true
+level: PRIVATE
+
+2022-12-10 12:19:39 INFO  webservice.EventManager.log:73 [] - {st:count="[Map: size=1]"^^dt:map, st:date="[Map: size=1]"^^dt:map, st:host="[Map: size=1]"^^dt:map, st:hostlite="[Map: size=1]"^^dt:map}
+2022-12-10 12:19:39 INFO  webservice.EventManager.log:74 [] - {"http://ns.inria.fr/sparql-template/user"=7}
+2022-12-10 12:19:39 INFO  webservice.EventManager.log:76 [] - {"172.19.0.4"=7}
+2022-12-10 12:19:39 INFO  webservice.SPARQLRestAPI.updateTriplesDirect:881 [] - updateTriplesDirect
+2022-12-10 12:19:39 INFO  webservice.SPARQLRestAPI.updateTriplesDirect:884 [] - DROP SILENT GRAPH <http://localhost/service/resp-graph-6394795b763171.96252599>
+2022-12-10 12:19:39 INFO  webservice.EventManager.log:72 [] - Workflow Context:
+st:remoteHost : "172.19.0.4"
+st:service : "http://ns.inria.fr/sparql-template/user"
+request : "[org.eclipse.jetty.server.Request:Request(POST //corese:8081/sparql)@4373501c]"^^dt:pointer
+url : <http://corese:8081/sparql>
+user query: true
+level: PRIVATE
+
+2022-12-10 12:19:39 INFO  webservice.EventManager.log:73 [] - {st:count="[Map: size=1]"^^dt:map, st:date="[Map: size=1]"^^dt:map, st:host="[Map: size=1]"^^dt:map, st:hostlite="[Map: size=1]"^^dt:map}
+2022-12-10 12:19:39 INFO  webservice.EventManager.log:74 [] - {"http://ns.inria.fr/sparql-template/user"=8}
+2022-12-10 12:19:39 INFO  webservice.EventManager.log:76 [] - {"172.19.0.4"=8}
+2022-12-10 12:19:46 INFO  webservice.SPARQLRestAPI.getTriplesJSONForPost:712 [] - getTriplesJSONForPost
+2022-12-10 12:19:46 INFO  webservice.SPARQLResult.getResultFormat:90 [] - Endpoint URL: http://corese:8081/sparql
+2022-12-10 12:19:46 INFO  webservice.SPARQLResult.getResultFormat:96 [] - Query: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT * WHERE {
+  ?sub ?pred ?obj .
+} LIMIT 10
+2022-12-10 12:19:46 INFO  webservice.EventManager.log:72 [] - Workflow Context:
+default-graph-uri : "(<http://localhost/service/resp-graph-63947961efae26.00641172> )"^^dt:list
+st:remoteHost : "172.19.0.4"
+st:service : "http://ns.inria.fr/sparql-template/user"
+request : "[org.eclipse.jetty.server.Request:Request(POST //corese:8081/sparql)@7ac031e5]"^^dt:pointer
+url : <http://corese:8081/sparql>
+user query: true
+level: PRIVATE
+
+2022-12-10 12:19:46 INFO  webservice.EventManager.log:73 [] - {st:count="[Map: size=1]"^^dt:map, st:date="[Map: size=1]"^^dt:map, st:host="[Map: size=1]"^^dt:map, st:hostlite="[Map: size=1]"^^dt:map}
+2022-12-10 12:19:46 INFO  webservice.EventManager.log:74 [] - {"http://ns.inria.fr/sparql-template/user"=9}
+2022-12-10 12:19:46 INFO  webservice.EventManager.log:76 [] - {"172.19.0.4"=9}
+2022-12-10 12:19:46 INFO  webservice.SPARQLRestAPI.updateTriplesDirect:881 [] - updateTriplesDirect
+2022-12-10 12:19:46 INFO  webservice.SPARQLRestAPI.updateTriplesDirect:884 [] - DROP SILENT GRAPH <http://localhost/service/resp-graph-63947961efae26.00641172>
+2022-12-10 12:19:46 INFO  webservice.EventManager.log:72 [] - Workflow Context:
+st:remoteHost : "172.19.0.4"
+st:service : "http://ns.inria.fr/sparql-template/user"
+request : "[org.eclipse.jetty.server.Request:Request(POST //corese:8081/sparql)@5b252358]"^^dt:pointer
+url : <http://corese:8081/sparql>
+user query: true
+level: PRIVATE
+
+2022-12-10 12:19:46 INFO  webservice.EventManager.log:73 [] - {st:count="[Map: size=1]"^^dt:map, st:date="[Map: size=1]"^^dt:map, st:host="[Map: size=1]"^^dt:map, st:hostlite="[Map: size=1]"^^dt:map}
+2022-12-10 12:19:46 INFO  webservice.EventManager.log:74 [] - {"http://ns.inria.fr/sparql-template/user"=10}
+2022-12-10 12:19:46 INFO  webservice.EventManager.log:76 [] - {"172.19.0.4"=10}
+2022-12-10 12:20:05 INFO  webservice.SPARQLRestAPI.getTriplesJSONForPost:712 [] - getTriplesJSONForPost
+2022-12-10 12:20:05 INFO  webservice.SPARQLResult.getResultFormat:90 [] - Endpoint URL: http://corese:8081/sparql
+2022-12-10 12:20:05 INFO  webservice.SPARQLResult.getResultFormat:96 [] - Query: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT * WHERE {
+  ?sub ?pred ?obj .
+} LIMIT 10
+2022-12-10 12:20:05 INFO  webservice.EventManager.log:72 [] - Workflow Context:
+default-graph-uri : "(<http://localhost/service/resp-graph-639479757e9b55.48248205> )"^^dt:list
+st:remoteHost : "172.19.0.4"
+st:service : "http://ns.inria.fr/sparql-template/user"
+request : "[org.eclipse.jetty.server.Request:Request(POST //corese:8081/sparql)@5534d976]"^^dt:pointer
+url : <http://corese:8081/sparql>
+user query: true
+level: PRIVATE
+
+2022-12-10 12:20:05 INFO  webservice.EventManager.log:73 [] - {st:count="[Map: size=1]"^^dt:map, st:date="[Map: size=1]"^^dt:map, st:host="[Map: size=1]"^^dt:map, st:hostlite="[Map: size=1]"^^dt:map}
+2022-12-10 12:20:05 INFO  webservice.EventManager.log:74 [] - {"http://ns.inria.fr/sparql-template/user"=11}
+2022-12-10 12:20:05 INFO  webservice.EventManager.log:76 [] - {"172.19.0.4"=11}
+2022-12-10 12:20:05 INFO  webservice.SPARQLRestAPI.updateTriplesDirect:881 [] - updateTriplesDirect
+2022-12-10 12:20:05 INFO  webservice.SPARQLRestAPI.updateTriplesDirect:884 [] - DROP SILENT GRAPH <http://localhost/service/resp-graph-639479757e9b55.48248205>
+2022-12-10 12:20:05 INFO  webservice.EventManager.log:72 [] - Workflow Context:
+st:remoteHost : "172.19.0.4"
+st:service : "http://ns.inria.fr/sparql-template/user"
+request : "[org.eclipse.jetty.server.Request:Request(POST //corese:8081/sparql)@7b9069c]"^^dt:pointer
+url : <http://corese:8081/sparql>
+user query: true
+level: PRIVATE
+
+2022-12-10 12:20:05 INFO  webservice.EventManager.log:73 [] - {st:count="[Map: size=1]"^^dt:map, st:date="[Map: size=1]"^^dt:map, st:host="[Map: size=1]"^^dt:map, st:hostlite="[Map: size=1]"^^dt:map}
+2022-12-10 12:20:05 INFO  webservice.EventManager.log:74 [] - {"http://ns.inria.fr/sparql-template/user"=12}
+2022-12-10 12:20:05 INFO  webservice.EventManager.log:76 [] - {"172.19.0.4"=12}
+2022-12-10 12:20:07 INFO  webservice.SPARQLRestAPI.getTriplesJSONForPost:712 [] - getTriplesJSONForPost
+2022-12-10 12:20:07 INFO  webservice.SPARQLResult.getResultFormat:90 [] - Endpoint URL: http://corese:8081/sparql
+2022-12-10 12:20:07 INFO  webservice.SPARQLResult.getResultFormat:96 [] - Query: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT * WHERE {
+  ?sub ?pred ?obj .
+} LIMIT 10
+2022-12-10 12:20:07 INFO  webservice.EventManager.log:72 [] - Workflow Context:
+default-graph-uri : "(<http://localhost/service/resp-graph-63947977c8deb3.96436455> )"^^dt:list
+st:remoteHost : "172.19.0.4"
+st:service : "http://ns.inria.fr/sparql-template/user"
+request : "[org.eclipse.jetty.server.Request:Request(POST //corese:8081/sparql)@768dbd07]"^^dt:pointer
+url : <http://corese:8081/sparql>
+user query: true
+level: PRIVATE
+
+2022-12-10 12:20:07 INFO  webservice.EventManager.log:73 [] - {st:count="[Map: size=1]"^^dt:map, st:date="[Map: size=1]"^^dt:map, st:host="[Map: size=1]"^^dt:map, st:hostlite="[Map: size=1]"^^dt:map}
+2022-12-10 12:20:07 INFO  webservice.EventManager.log:74 [] - {"http://ns.inria.fr/sparql-template/user"=13}
+2022-12-10 12:20:07 INFO  webservice.EventManager.log:76 [] - {"172.19.0.4"=13}
+2022-12-10 12:20:07 INFO  webservice.SPARQLRestAPI.updateTriplesDirect:881 [] - updateTriplesDirect
+2022-12-10 12:20:07 INFO  webservice.SPARQLRestAPI.updateTriplesDirect:884 [] - DROP SILENT GRAPH <http://localhost/service/resp-graph-63947977c8deb3.96436455>
+2022-12-10 12:20:07 INFO  webservice.EventManager.log:72 [] - Workflow Context:
+st:remoteHost : "172.19.0.4"
+st:service : "http://ns.inria.fr/sparql-template/user"
+request : "[org.eclipse.jetty.server.Request:Request(POST //corese:8081/sparql)@11490c86]"^^dt:pointer
+url : <http://corese:8081/sparql>
+user query: true
+level: PRIVATE
+
+2022-12-10 12:20:07 INFO  webservice.EventManager.log:73 [] - {st:count="[Map: size=1]"^^dt:map, st:date="[Map: size=1]"^^dt:map, st:host="[Map: size=1]"^^dt:map, st:hostlite="[Map: size=1]"^^dt:map}
+2022-12-10 12:20:08 INFO  webservice.EventManager.log:74 [] - {"http://ns.inria.fr/sparql-template/user"=14}
+2022-12-10 12:20:08 INFO  webservice.EventManager.log:76 [] - {"172.19.0.4"=14}
+2022-12-10 12:20:12 INFO  webservice.SPARQLRestAPI.getTriplesJSONForPost:712 [] - getTriplesJSONForPost
+2022-12-10 12:20:12 INFO  webservice.SPARQLResult.getResultFormat:90 [] - Endpoint URL: http://corese:8081/sparql
+2022-12-10 12:20:12 INFO  webservice.SPARQLResult.getResultFormat:96 [] - Query: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT * WHERE {
+  ?sub ?pred ?obj .
+} LIMIT 10
+2022-12-10 12:20:12 INFO  webservice.EventManager.log:72 [] - Workflow Context:
+default-graph-uri : "(<http://localhost/service/resp-graph-6394797c1555e1.15237003> )"^^dt:list
+st:remoteHost : "172.19.0.4"
+st:service : "http://ns.inria.fr/sparql-template/user"
+request : "[org.eclipse.jetty.server.Request:Request(POST //corese:8081/sparql)@2f2ad0c3]"^^dt:pointer
+url : <http://corese:8081/sparql>
+user query: true
+level: PRIVATE
+
+2022-12-10 12:20:12 INFO  webservice.EventManager.log:73 [] - {st:count="[Map: size=1]"^^dt:map, st:date="[Map: size=1]"^^dt:map, st:host="[Map: size=1]"^^dt:map, st:hostlite="[Map: size=1]"^^dt:map}
+2022-12-10 12:20:12 INFO  webservice.EventManager.log:74 [] - {"http://ns.inria.fr/sparql-template/user"=15}
+2022-12-10 12:20:12 INFO  webservice.EventManager.log:76 [] - {"172.19.0.4"=15}
+2022-12-10 12:20:12 INFO  webservice.SPARQLRestAPI.updateTriplesDirect:881 [] - updateTriplesDirect
+2022-12-10 12:20:12 INFO  webservice.SPARQLRestAPI.updateTriplesDirect:884 [] - DROP SILENT GRAPH <http://localhost/service/resp-graph-6394797c1555e1.15237003>
+2022-12-10 12:20:12 INFO  webservice.EventManager.log:72 [] - Workflow Context:
+st:remoteHost : "172.19.0.4"
+st:service : "http://ns.inria.fr/sparql-template/user"
+request : "[org.eclipse.jetty.server.Request:Request(POST //corese:8081/sparql)@3517910c]"^^dt:pointer
+url : <http://corese:8081/sparql>
+user query: true
+level: PRIVATE
+
+2022-12-10 12:20:12 INFO  webservice.EventManager.log:73 [] - {st:count="[Map: size=1]"^^dt:map, st:date="[Map: size=1]"^^dt:map, st:host="[Map: size=1]"^^dt:map, st:hostlite="[Map: size=1]"^^dt:map}
+2022-12-10 12:20:12 INFO  webservice.EventManager.log:74 [] - {"http://ns.inria.fr/sparql-template/user"=16}
+2022-12-10 12:20:12 INFO  webservice.EventManager.log:76 [] - {"172.19.0.4"=16}
+2022-12-10 12:20:28 INFO  webservice.SPARQLRestAPI.getTriplesJSONForPost:712 [] - getTriplesJSONForPost
+2022-12-10 12:20:28 INFO  webservice.SPARQLResult.getResultFormat:90 [] - Endpoint URL: http://corese:8081/sparql
+2022-12-10 12:20:28 INFO  webservice.SPARQLResult.getResultFormat:96 [] - Query: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT * WHERE {
+  ?sub ?pred ?obj .
+} LIMIT 10
+2022-12-10 12:20:28 INFO  webservice.EventManager.log:72 [] - Workflow Context:
+default-graph-uri : "(<http://localhost/service/resp-graph-6394798c8bb108.48944624> )"^^dt:list
+st:remoteHost : "172.19.0.4"
+st:service : "http://ns.inria.fr/sparql-template/user"
+request : "[org.eclipse.jetty.server.Request:Request(POST //corese:8081/sparql)@2b1f6b4]"^^dt:pointer
+url : <http://corese:8081/sparql>
+user query: true
+level: PRIVATE
+
+2022-12-10 12:20:28 INFO  webservice.EventManager.log:73 [] - {st:count="[Map: size=1]"^^dt:map, st:date="[Map: size=1]"^^dt:map, st:host="[Map: size=1]"^^dt:map, st:hostlite="[Map: size=1]"^^dt:map}
+2022-12-10 12:20:28 INFO  webservice.EventManager.log:74 [] - {"http://ns.inria.fr/sparql-template/user"=17}
+2022-12-10 12:20:28 INFO  webservice.EventManager.log:76 [] - {"172.19.0.4"=17}
+2022-12-10 12:20:28 INFO  webservice.SPARQLRestAPI.updateTriplesDirect:881 [] - updateTriplesDirect
+2022-12-10 12:20:28 INFO  webservice.SPARQLRestAPI.updateTriplesDirect:884 [] - DROP SILENT GRAPH <http://localhost/service/resp-graph-6394798c8bb108.48944624>
+2022-12-10 12:20:28 INFO  webservice.EventManager.log:72 [] - Workflow Context:
+st:remoteHost : "172.19.0.4"
+st:service : "http://ns.inria.fr/sparql-template/user"
+request : "[org.eclipse.jetty.server.Request:Request(POST //corese:8081/sparql)@1685db2d]"^^dt:pointer
+url : <http://corese:8081/sparql>
+user query: true
+level: PRIVATE
+
+2022-12-10 12:20:28 INFO  webservice.EventManager.log:73 [] - {st:count="[Map: size=1]"^^dt:map, st:date="[Map: size=1]"^^dt:map, st:host="[Map: size=1]"^^dt:map, st:hostlite="[Map: size=1]"^^dt:map}
+2022-12-10 12:20:28 INFO  webservice.EventManager.log:74 [] - {"http://ns.inria.fr/sparql-template/user"=18}
+2022-12-10 12:20:28 INFO  webservice.EventManager.log:76 [] - {"172.19.0.4"=18}
+2022-12-10 12:20:36 INFO  webservice.SPARQLRestAPI.getTriplesJSONForPost:712 [] - getTriplesJSONForPost
+2022-12-10 12:20:36 INFO  webservice.SPARQLResult.getResultFormat:90 [] - Endpoint URL: http://corese:8081/sparql
+2022-12-10 12:20:36 INFO  webservice.SPARQLResult.getResultFormat:96 [] - Query: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT * WHERE {
+  ?sub ?pred ?obj .
+} LIMIT 10
+2022-12-10 12:20:36 INFO  webservice.EventManager.log:72 [] - Workflow Context:
+default-graph-uri : "(<http://localhost/service/resp-graph-639479941b3214.84519561> )"^^dt:list
+st:remoteHost : "172.19.0.4"
+st:service : "http://ns.inria.fr/sparql-template/user"
+request : "[org.eclipse.jetty.server.Request:Request(POST //corese:8081/sparql)@7e076eef]"^^dt:pointer
+url : <http://corese:8081/sparql>
+user query: true
+level: PRIVATE
+
+2022-12-10 12:20:36 INFO  webservice.EventManager.log:73 [] - {st:count="[Map: size=1]"^^dt:map, st:date="[Map: size=1]"^^dt:map, st:host="[Map: size=1]"^^dt:map, st:hostlite="[Map: size=1]"^^dt:map}
+2022-12-10 12:20:36 INFO  webservice.EventManager.log:74 [] - {"http://ns.inria.fr/sparql-template/user"=19}
+2022-12-10 12:20:36 INFO  webservice.EventManager.log:76 [] - {"172.19.0.4"=19}
+2022-12-10 12:20:36 INFO  webservice.SPARQLRestAPI.updateTriplesDirect:881 [] - updateTriplesDirect
+2022-12-10 12:20:36 INFO  webservice.SPARQLRestAPI.updateTriplesDirect:884 [] - DROP SILENT GRAPH <http://localhost/service/resp-graph-639479941b3214.84519561>
+2022-12-10 12:20:36 INFO  webservice.EventManager.log:72 [] - Workflow Context:
+st:remoteHost : "172.19.0.4"
+st:service : "http://ns.inria.fr/sparql-template/user"
+request : "[org.eclipse.jetty.server.Request:Request(POST //corese:8081/sparql)@359253a0]"^^dt:pointer
+url : <http://corese:8081/sparql>
+user query: true
+level: PRIVATE
+
+2022-12-10 12:20:36 INFO  webservice.EventManager.log:73 [] - {st:count="[Map: size=1]"^^dt:map, st:date="[Map: size=1]"^^dt:map, st:host="[Map: size=1]"^^dt:map, st:hostlite="[Map: size=1]"^^dt:map}
+2022-12-10 12:20:36 INFO  webservice.EventManager.log:74 [] - {"http://ns.inria.fr/sparql-template/user"=20}
+2022-12-10 12:20:36 INFO  webservice.EventManager.log:76 [] - {"172.19.0.4"=20}
+2022-12-10 12:27:53 INFO  webservice.SPARQLRestAPI.getTriplesJSONForPost:712 [] - getTriplesJSONForPost
+2022-12-10 12:27:53 INFO  webservice.SPARQLResult.getResultFormat:90 [] - Endpoint URL: http://corese:8081/sparql
+2022-12-10 12:27:53 INFO  webservice.SPARQLResult.getResultFormat:96 [] - Query: select * where {?s ?p ?o}
+2022-12-10 12:27:53 INFO  webservice.EventManager.log:72 [] - Workflow Context:
+default-graph-uri : "(<http://localhost/service/resp-graph-63947b4999def6.07807819> )"^^dt:list
+st:remoteHost : "172.19.0.4"
+st:service : "http://ns.inria.fr/sparql-template/user"
+request : "[org.eclipse.jetty.server.Request:Request(POST //corese:8081/sparql)@559fd765]"^^dt:pointer
+url : <http://corese:8081/sparql>
+user query: true
+level: PRIVATE
+
+2022-12-10 12:27:53 INFO  webservice.EventManager.log:73 [] - {st:count="[Map: size=1]"^^dt:map, st:date="[Map: size=1]"^^dt:map, st:host="[Map: size=1]"^^dt:map, st:hostlite="[Map: size=1]"^^dt:map}
+2022-12-10 12:27:53 INFO  webservice.EventManager.log:74 [] - {"http://ns.inria.fr/sparql-template/user"=21}
+2022-12-10 12:27:53 INFO  webservice.EventManager.log:76 [] - {"172.19.0.4"=21}
+2022-12-10 12:27:53 INFO  webservice.SPARQLRestAPI.updateTriplesDirect:881 [] - updateTriplesDirect
+2022-12-10 12:27:53 INFO  webservice.SPARQLRestAPI.updateTriplesDirect:884 [] - DROP SILENT GRAPH <http://localhost/service/resp-graph-63947b4999def6.07807819>
+2022-12-10 12:27:53 INFO  webservice.EventManager.log:72 [] - Workflow Context:
+st:remoteHost : "172.19.0.4"
+st:service : "http://ns.inria.fr/sparql-template/user"
+request : "[org.eclipse.jetty.server.Request:Request(POST //corese:8081/sparql)@324916fc]"^^dt:pointer
+url : <http://corese:8081/sparql>
+user query: true
+level: PRIVATE
+
+2022-12-10 12:27:53 INFO  webservice.EventManager.log:73 [] - {st:count="[Map: size=1]"^^dt:map, st:date="[Map: size=1]"^^dt:map, st:host="[Map: size=1]"^^dt:map, st:hostlite="[Map: size=1]"^^dt:map}
+2022-12-10 12:27:53 INFO  webservice.EventManager.log:74 [] - {"http://ns.inria.fr/sparql-template/user"=22}
+2022-12-10 12:27:53 INFO  webservice.EventManager.log:76 [] - {"172.19.0.4"=22}
