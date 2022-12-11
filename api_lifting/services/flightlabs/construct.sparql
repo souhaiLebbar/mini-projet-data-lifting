@@ -1,0 +1,13 @@
+#@prefix schema: <http://ns.inria.fr/sparql-micro-service/api#>
+#CONSTRUCT {
+
+#  []
+#     a schema:flight;
+#        schema:flightNumber ?flightNumber;  
+#        schema:arrivalAirport ?arrivalAirport;
+#        schema:aircraft ?aircraft;
+#        schema:airline ?airline;
+#        schema:arrivalAirportIata ?arrivalAirportIata;
+#        schema:arrivalAirportLatitude ?arrivalAirportLatitude;
+#        schema:arrivalAirportLongitude ?arrivalAirportLongitude;
+        

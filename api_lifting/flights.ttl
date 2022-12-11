@@ -1,0 +1,290 @@
+@prefix atm: <https://data.nasa.gov/ontologies/atmonto/ATM#> .
+@prefix data: <https://data.nasa.gov/ontologies/atmonto/data#> .
+@prefix doc: <https://data.nasa.gov/ontologies/atmonto/documentation#> .
+@prefix eqp: <https://data.nasa.gov/ontologies/atmonto/equipment#> .
+@prefix gen: <https://data.nasa.gov/ontologies/atmonto/general#> .
+@prefix nas: <https://data.nasa.gov/ontologies/atmonto/NAS#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix flight: <https://flight.fr/ontologie/flight#>
+
+flight:Flight rdf:type owl:Class ;
+    rdfs:comment "A single flight segment from origin to destination."^^xsd:string ;
+    rdfs:label "Flight"^^xsd:string ;
+    rdfs:subClassOf atm:Flight .
+
+flight:iataNumber rdf:type owl:DatatypeProperty ;
+    rdfs:comment "The flight identifier (2-letter IATA code of airline plus number of flight)."^^xsd:string ;
+    rdfs:domain flight:Flight ;
+    rdfs:label "iata Number" ;
+    rdfs:range xsd:string ;
+
+flight:icaoNumber rdf:type owl:DatatypeProperty ;
+    rdfs:comment "The flight identifier (3-letter ICAO code of airline plus number of flight plus letter)."^^xsd:string ;
+    rdfs:domain flight:Flight ;
+    rdfs:label "icao Number" ;
+    rdfs:range xsd:string ;
+
+flight:number rdf:type owl:DatatypeProperty ;
+    rdfs:comment "The flight number."^^xsd:string ;
+    rdfs:domain flight:Flight ;
+    rdfs:label "Number" ;
+    rdfs:range xsd:string ;
+
+flight:status rdf:type owl:DatatypeProperty ;
+    rdfs:comment "The status of the flight."^^xsd:string ;
+    rdfs:domain flight:Flight ;
+    rdfs:label "Status" ;
+    rdfs:range xsd:string .
+
+flight:Geography rdf:type owl:Class ;
+    rdfs:comment "Geography of the aircraft at the given time."^^xsd:string ;
+    rdfs:label "Geography"^^xsd:string .
+
+flight:altitude rdf:type owl:DatatypeProperty ;
+    rdfs:comment "The altitude (in meters) of the aircraft at the given time." ;
+    rdfs:domain flight:Geography ;
+    rdfs:label "Altitude" ;
+    rdfs:range xsd:double ;
+
+flight:direction rdf:type owl:DatatypeProperty ;
+    rdfs:comment "The direction (in degrees) of the aircraft at the given time."
+    rdfs:domain flight:Geography ;
+    rdfs:label "Direction" ;
+    rdfs:range xsd:integer ;
+
+flight:latitude rdf:type owl:DatatypeProperty ;
+    rdfs:comment "The latitude coordinate associated with the aircraft location." ;
+    rdfs:domain flight:Geography ;
+    rdfs:label "Latitude" ;
+    rdfs:range xsd:double ;
+
+flight:longitude rdf:type owl:DatatypeProperty ;
+    rdfs:comment "The longitude coordinate associated with the aircraft location." ;
+    rdfs:domain flight:Geography ;
+    rdfs:label "Longitude" ;
+    rdfs:range xsd:double ;
+
+flight:Speed a rdf:type owl:Class ;
+    rdfs:comment "The speed (in kilometers per hour) of the aircraft."^^xsd:string ;
+    rdfs:label "Speed"^^xsd:string .
+
+flight:horizontal rdf:type owl:DatatypeProperty ;
+    rdfs:comment "The horizontal speed (in kilometers per hour) of the aircraft at the given time." ;
+    rdfs:domain flight:Speed ;
+    rdfs:label "Horizontal" ;
+    rdfs:range xsd:double .
+
+flight:isGround rdf:type owl:DatatypeProperty ;
+    rdfs:comment "True or false depending on whether or not the aircraft is on the ground at the given time." ;
+    rdfs:domain flight:Speed ;
+    rdfs:label "Is Ground" ;
+    rdfs:range xsd:integer .
+
+flight:vspeed rdf:type owl:DatatypeProperty ;
+    rdfs:comment "The vertical speed (in kilometers per hour) of the aircraft at the given time." ;
+    rdfs:domain flight:Speed ;
+    rdfs:label "Vertical" ;
+    rdfs:range xsd:integer .
+
+flight:System rdf:type owl:Class ;
+    rdfs:comment "System informations"^^xsd:string ;
+    rdfs:label "System"^^xsd:string .
+
+flight:updated rdf:type owl:DatatypeProperty ;
+    rdfs:comment "The exact date and time the live data was collected in RFC3339 (ISO8601) format."^^xsd:string ;
+    rdfs:domain flight:System;
+    rdfs:label "Updated" ;
+    rdfs:range xsd:integer .
+
+flight:hasGeography rdf:type owl:ObjecteProperty ;
+    rdfs:comment "Geography of the aircraft that operates the flight"^^xsd:string ;
+    rdfs:domain flight:Flight ;
+    rdfs:label "has geography" ;
+    rdfs:range flight:Geography .
+
+flight:hasSpeed rdf:type owl:ObjecteProperty ;
+    rdfs:comment "Speed of the aircraft that operates the flight"^^xsd:string ;
+    rdfs:domain flight:Flight ;
+    rdfs:label "has geography" ;
+    rdfs:range flight:Geography .
+
+flight:hasSystem rdf:type owl:ObjecteProperty ;
+    rdfs:comment "System informations of the aircraft that operates the flight"^^xsd:string ;
+    rdfs:domain flight:Flight ;
+    rdfs:label "has geography" ;
+    rdfs:range flight:Geography .
+
+nas:RAMairline a nas:AirCarrier;
+    nas:iataCarrierCode "AT"^^xsd:string ;
+    nas:iataCarrierCode "RAM"^^xsd:string .
+
+nas:AGAAirport a nas:Airport;
+    nas:iataAirportCode "AGA"^^xsd:string ;
+    nas:icaoAirportCode "GMAD"^^xsd:string .
+
+nas:ORYAirport a nas:Airport;
+    nas:iataAirportCode "ORY"^^xsd:string ;
+    nas:icaoAirportCode "LFPO"^^xsd:string .
+
+nas:RAMFlight665 a atm:Flight;
+    flight:iataNumber "AT665"^^xsd:string ;
+    flight:icaoNumber "RAM665Z"^^xsd:string ;
+    flight:number "665"^^xsd:string ;
+    atm:departureAirport nas:ORYAirport;
+    atm:arrivalAirport nas:AGAAirport;
+    atm:operatedBy nas:RAMairline;
+    flight:status "en-route"^^xsd:string ;
+    flight:hasGeography flight:Geography665;
+    flight:hasSpeed flight:Speed665;
+    flight:hasSystem flight:System665 ;
+    atm:aircraftFlown flight:Aircraft020057 .
+
+
+flight:Geography665 a flight:Geography;
+    flight:altitude "1.18872E4"^^xsd:double ;
+    flight:direction 211 ;
+    flight:latitude "3.901E1"^^xsd:double ;
+    flight:longitude "-4.5E0"^^xsd:double .
+
+flight:Speed665 a flight:Speed;
+    flight:horizontal "8.445119999999999E2"^^xsd:double ;
+    flight:isGround 0 ;
+    flight:vspeed 0 .
+
+flight:System665 a flight:System;
+    flight:updated 1670674881 .
+
+eqp:Aircraft4CA73B a eqp:Aircraft;
+    eqp:cicttNumber "B738"^^xsd:string ;
+    eqp:modeSCode "4CA73B"^^xsd:string ;
+    eqp:registrationNumber "EI-EBS"^^xsd:string .
+
+nas:RYRairline a nas:AirCarrier;
+    nas:iataCarrierCode "FR"^^xsd:string ;
+    nas:iataCarrierCode "RYR"^^xsd:string .
+
+nas:FKBAirport a nas:Airport;
+    nas:iataAirportCode "FKB"^^xsd:string ;
+    nas:icaoAirportCode "EDSB"^^xsd:string .
+
+nas:RYRFlight9293 a atm:Flight;
+    flight:iataNumber "FR9293"^^xsd:string ;
+    flight:icaoNumber "RYR1EJ"^^xsd:string ;
+    flight:number "9293"^^xsd:string ;
+    atm:departureAirport nas:FKBAirport;
+    atm:arrivalAirport nas:AGAAirport;
+    atm:operatedBy nas:RYRairline;
+    flight:status "en-route"^^xsd:string ;
+    flight:hasGeography flight:Geography9293;
+    flight:hasSpeed flight:Speed9293;
+    flight:hasSystem flight:System9293 ;
+    atm:aircraftFlown flight:Aircraft4CA73B .
+
+
+flight:Geography9293 a flight:Geography;
+    flight:altitude "1.12776E4"^^xsd:double ;
+    flight:direction 245 ;
+    flight:latitude "4.196E1"^^xsd:double ;
+    flight:longitude "3.26E0"^^xsd:double .
+
+flight:Speed9293 a flight:Speed;
+    flight:horizontal "7.66728E2"^^xsd:double ;
+    flight:isGround 0 ;
+    flight:vspeed 0 .
+
+flight:System9293 a flight:System;
+    flight:updated 1670674883 .
+
+eqp:Aircraft44A832 a eqp:Aircraft;   
+    eqp:cicttNumber "B737"^^xsd:string ;
+    eqp:modeSCode "44A832"^^xsd:string ;
+    eqp:registrationNumber "OO-JAR"^^xsd:string .
+
+
+
+nas:TUIairline a nas:AirCarrier;
+    nas:iataCarrierCode "X3"^^xsd:string ;
+    nas:iataCarrierCode "TUI"^^xsd:string .
+
+
+flight:System7212 a flight:System;
+    flight:updated 1670674880 .
+
+
+nas:LILAirport a nas:Airport;
+    nas:iataAirportCode "LIL"^^xsd:string ;
+    nas:icaoAirportCode "LFQQ"^^xsd:string .
+
+flight:Speed7212 a flight:Speed;
+    flight:horizontal "8.13028E2"^^xsd:double ;
+    flight:isGround 0 ;
+    flight:vspeed 0 .
+
+flight:Geography7212 a flight:Geography;
+    flight:altitude "1.12776E4"^^xsd:double ;
+    flight:direction 210 ;
+    flight:latitude "4.177E1"^^xsd:double ;
+    flight:longitude "-2.48E0"^^xsd:double .
+
+
+nas:JAFFlight7212 a atm:Flight;
+    flight:iataNumber "TB7212"^^xsd:string ;
+    flight:icaoNumber "JAF1LK"^^xsd:string ;
+    flight:number "7212"^^xsd:string .
+    atm:departureAirport nas:LILAirport;
+    atm:arrivalAirport nas:AGAAirport;
+    atm:operatedBy nas:TUIairline;
+    flight:status "en-route"^^xsd:string ;
+    flight:hasGeography flight:Geography7212;
+    flight:hasSpeed flight:Speed7212;
+    flight:hasSystem flight:System7212 ;
+    atm:aircraftFlown flight:Aircraft44A832 .
+
+
+flight:Geography4607 a flight:Geography;
+    flight:altitude "1.12776E4"^^xsd:double ;
+    flight:direction 259 ;
+    flight:latitude "4.014E1"^^xsd:double ;
+    flight:longitude "6.01E0"^^xsd:double .
+
+nas:RYRFlight4607 a atm:Flight;
+    flight:iataNumber "FR4607"^^xsd:string ;
+    flight:icaoNumber "RYR4607"^^xsd:string ;
+    flight:number "4607"^^xsd:string .
+    atm:departureAirport nas:CIAAirport;
+    atm:arrivalAirport nas:AGAAirport;
+    atm:operatedBy nas:RYRairline;
+    flight:status "en-route"^^xsd:string ;
+    flight:hasGeography flight:Geography4607;
+    flight:hasSpeed flight:Speed4607;
+    flight:hasSystem flight:System4607 ;
+    atm:aircraftFlown flight:Aircraft4CA8D9 .
+
+
+nas:CIAAirport a nas:Airport;
+    nas:iataAirportCode "CIA"^^xsd:string ;
+    nas:icaoAirportCode "LIRA"^^xsd:string .
+
+
+eqp:Aircraft4CA8D9 a eqp:Aircraft;   
+    eqp:cicttNumber "B738"^^xsd:string ;
+    eqp:modeSCode "44A832"^^xsd:string ;
+    eqp:registrationNumber "EI-ENN"^^xsd:string .
+
+
+flight:Speed4607 a flight:Speed;
+    flight:horizontal "7.46356E2"^^xsd:double ;
+    flight:isGround 0 ;
+    flight:vspeed 0 .
+
+flight:System4607 a flight:System;
+    flight:updated 1670674864 .
+
+eqp:Aircraft020057 a eqp:Aircraft;   
+    eqp:cicttNumber "B738"^^xsd:string ;
+    eqp:modeSCode "020057"^^xsd:string ;
+    eqp:registrationNumber "CN-RNZ"^^xsd:string .

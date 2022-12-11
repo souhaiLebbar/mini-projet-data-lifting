@@ -1,0 +1,167 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ns1: <http://ns.inria.fr/sparql-micro-service/api#> .
+
+
+_:b980 ns1:iataCode "AT" ;
+ns1:icaoCode "RAM" .
+
+_:b979 ns1:iataCode "AGA" ;
+ns1:icaoCode "GMAD" .
+
+_:b978 ns1:iataCode "ORY" ;
+ns1:icaoCode "LFPO" .
+
+_:b977 ns1:iataNumber "AT665" ;
+ns1:icaoNumber "RAM665Z" ;
+ns1:number "665" .
+
+_:b976 ns1:altitude "1.18872E4"^^xsd:double ;
+ns1:direction 211 ;
+ns1:latitude "3.901E1"^^xsd:double ;
+ns1:longitude "-4.5E0"^^xsd:double .
+
+_:b975 ns1:horizontal "8.445119999999999E2"^^xsd:double ;
+ns1:isGround 0 ;
+ns1:vspeed 0 .
+
+_:b974 ns1:updated 1670674881 .
+
+_:b973 ns1:iataCode "B738" ;
+ns1:icao24 "4CA73B" ;
+ns1:icaoCode "B738" ;
+ns1:regNumber "EI-EBS" .
+
+_:b972 ns1:iataCode "FR" ;
+ns1:icaoCode "RYR" .
+
+_:b971 ns1:iataCode "AGA" ;
+ns1:icaoCode "GMAD" .
+
+_:b970 ns1:iataCode "FKB" ;
+ns1:icaoCode "EDSB" .
+
+_:b969 ns1:iataNumber "FR9293" ;
+ns1:icaoNumber "RYR1EJ" ;
+ns1:number "9293" .
+
+_:b968 ns1:altitude "1.12776E4"^^xsd:double ;
+ns1:direction 245 ;
+ns1:latitude "4.196E1"^^xsd:double ;
+ns1:longitude "3.26E0"^^xsd:double .
+
+_:b967 ns1:horizontal "7.66728E2"^^xsd:double ;
+ns1:isGround 0 ;
+ns1:vspeed 0 .
+
+_:b966 ns1:updated 1670674883 .
+
+_:b998 ns1:data _:b984 ;
+ns1:data _:b991 ;
+ns1:data _:b996 ;
+ns1:data _:b997 ;
+ns1:success true .
+
+_:b965 ns1:iataCode "B737" ;
+ns1:icao24 "44A832" ;
+ns1:icaoCode "B737" ;
+ns1:regNumber "OO-JAR" .
+
+_:b997 ns1:aircraft _:b981 ;
+ns1:airline _:b980 ;
+ns1:arrival _:b979 ;
+ns1:departure _:b978 ;
+ns1:flight _:b977 ;
+ns1:geography _:b976 ;
+ns1:speed _:b975 ;
+ns1:status "en-route" ;
+ns1:system _:b974 .
+
+_:b964 ns1:iataCode "X3" ;
+ns1:icaoCode "TUI" .
+
+_:b996 ns1:aircraft _:b973 ;
+ns1:airline _:b972 ;
+ns1:arrival _:b971 ;
+ns1:departure _:b970 ;
+ns1:flight _:b969 ;
+ns1:geography _:b968 ;
+ns1:speed _:b967 ;
+ns1:status "en-route" ;
+ns1:system _:b966 .
+
+_:b963 ns1:iataCode "AGA" ;
+ns1:icaoCode "GMAD" .
+
+_:b995 ns1:updated 1670674880 .
+
+_:b962 ns1:iataCode "LIL" ;
+ns1:icaoCode "LFQQ" .
+
+_:b994 ns1:horizontal "8.13028E2"^^xsd:double ;
+ns1:isGround 0 ;
+ns1:vspeed 0 .
+
+_:b993 ns1:altitude "1.12776E4"^^xsd:double ;
+ns1:direction 210 ;
+ns1:latitude "4.177E1"^^xsd:double ;
+ns1:longitude "-2.48E0"^^xsd:double .
+
+_:b992 ns1:iataNumber "TB7212" ;
+ns1:icaoNumber "JAF1LK" ;
+ns1:number "7212" .
+
+_:b991 ns1:aircraft _:b965 ;
+ns1:airline _:b964 ;
+ns1:arrival _:b963 ;
+ns1:departure _:b962 ;
+ns1:flight _:b992 ;
+ns1:geography _:b993 ;
+ns1:speed _:b994 ;
+ns1:status "en-route" ;
+ns1:system _:b995 .
+
+_:b990 ns1:altitude "1.12776E4"^^xsd:double ;
+ns1:direction 259 ;
+ns1:latitude "4.014E1"^^xsd:double ;
+ns1:longitude "6.01E0"^^xsd:double .
+
+_:b989 ns1:iataNumber "FR4607" ;
+ns1:icaoNumber "RYR4607" ;
+ns1:number "4607" .
+
+_:b988 ns1:iataCode "CIA" ;
+ns1:icaoCode "LIRA" .
+
+_:b987 ns1:iataCode "AGA" ;
+ns1:icaoCode "GMAD" .
+
+_:b986 ns1:iataCode "FR" ;
+ns1:icaoCode "RYR" .
+
+_:b985 ns1:iataCode "B738" ;
+ns1:icao24 "4CA8D9" ;
+ns1:icaoCode "B738" ;
+ns1:regNumber "EI-ENN" .
+
+_:b984 ns1:aircraft _:b985 ;
+ns1:airline _:b986 ;
+ns1:arrival _:b987 ;
+ns1:departure _:b988 ;
+ns1:flight _:b989 ;
+ns1:geography _:b990 ;
+ns1:speed _:b983 ;
+ns1:status "en-route" ;
+ns1:system _:b982 .
+
+_:b983 ns1:horizontal "7.46356E2"^^xsd:double ;
+ns1:isGround 0 ;
+ns1:vspeed 0 .
+
+_:b982 ns1:updated 1670674864 .
+
+_:b981 ns1:iataCode "B738" ;
+ns1:icao24 "020057" ;
+ns1:icaoCode "B738" ;
+ns1:regNumber "CN-RNZ" .
+
+

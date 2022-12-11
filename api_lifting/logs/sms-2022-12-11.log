@@ -1,0 +1,849 @@
+2022-12-11 09:48:44 ["51llsuefqof1c"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 09:48:44 ["51llsuefqof1c"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 09:48:44 ["51llsuefqof1c"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 09:48:44 ["51llsuefqof1c"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 09:48:44 ["51llsuefqof1c"] Utils NOTICE: Query HTTP header "Accept": text/turtle
+2022-12-11 09:48:44 ["51llsuefqof1c"] service NOTICE: Client SPARQL query (html special chars encoded):
+construct WHERE { ?s ?p ?o } 
+2022-12-11 09:48:44 ["51llsuefqof1c"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [aeroport_iata] => AGA
+)
+
+2022-12-11 09:48:44 ["51llsuefqof1c"] service NOTICE: Web API query string: https://app.goflightlabs.com/advanced-real-time-flights?access_key=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI0IiwianRpIjoiYzA1YWI5ODRiM2ZjMzg1NTVjNjgzZjEzMzRhYjA2NzU4OTk4ZGE2MGQ0OGM0OTIzNzIxMmVjNzAxOTM5ZGQ5OGQ0OGJhZjA0ZjQ2YTRhOWIiLCJpYXQiOjE2NzAyMjg3ODQsIm5iZiI6MTY3MDIyODc4NCwiZXhwIjoxNzAxNzY0Nzg0LCJzdWIiOiIxOTEwOCIsInNjb3BlcyI6W119.XYSGIskzdtgoVnX7rIEaquOrrvzrECJMu42_R4LkKVUXEqXmlQy2RqSvXpcsGz1OkUkR8hWZYfklwlZ4mg_Fxg&arrIata=AGA
+2022-12-11 09:48:44 ["51llsuefqof1c"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2022-12-11 09:48:45 ["51llsuefqof1c"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 09:48:45 ["51llsuefqof1c"] service NOTICE: Sending response with Content-Type: text/turtle
+2022-12-11 09:48:45 ["51llsuefqof1c"] service NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 09:50:34 ["qbea53qmeacht"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 09:50:34 ["qbea53qmeacht"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 09:50:34 ["qbea53qmeacht"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 09:50:34 ["qbea53qmeacht"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 09:50:34 ["qbea53qmeacht"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json
+2022-12-11 09:50:34 ["qbea53qmeacht"] service NOTICE: Client SPARQL query (html special chars encoded):
+select * where {?s ?p ?o}
+2022-12-11 09:50:34 ["qbea53qmeacht"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [aeroport_iata] => AGA
+)
+
+2022-12-11 09:50:34 ["qbea53qmeacht"] service NOTICE: Web API query string: https://app.goflightlabs.com/advanced-real-time-flights?access_key=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI0IiwianRpIjoiYzA1YWI5ODRiM2ZjMzg1NTVjNjgzZjEzMzRhYjA2NzU4OTk4ZGE2MGQ0OGM0OTIzNzIxMmVjNzAxOTM5ZGQ5OGQ0OGJhZjA0ZjQ2YTRhOWIiLCJpYXQiOjE2NzAyMjg3ODQsIm5iZiI6MTY3MDIyODc4NCwiZXhwIjoxNzAxNzY0Nzg0LCJzdWIiOiIxOTEwOCIsInNjb3BlcyI6W119.XYSGIskzdtgoVnX7rIEaquOrrvzrECJMu42_R4LkKVUXEqXmlQy2RqSvXpcsGz1OkUkR8hWZYfklwlZ4mg_Fxg&arrIata=AGA
+2022-12-11 09:50:34 ["qbea53qmeacht"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2022-12-11 09:50:34 ["qbea53qmeacht"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 09:50:34 ["qbea53qmeacht"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2022-12-11 09:50:35 ["qbea53qmeacht"] service NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:02:48 ["f6m1hrlvm2tci"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:02:48 ["f6m1hrlvm2tci"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:02:48 ["f6m1hrlvm2tci"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:02:48 ["f6m1hrlvm2tci"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:02:48 ["f6m1hrlvm2tci"] Utils NOTICE: Query HTTP header "Accept": */*
+2022-12-11 10:02:48 ["f6m1hrlvm2tci"] Utils WARNING: Unsupported HTTP method OPTIONS
+2022-12-11 10:02:48 ["f6m1hrlvm2tci"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:02:48 ["1882tv7hnalqp"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:02:48 ["1882tv7hnalqp"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:02:48 ["1882tv7hnalqp"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:02:48 ["1882tv7hnalqp"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2022-12-11 10:02:48 ["1882tv7hnalqp"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2022-12-11 10:02:48 ["1882tv7hnalqp"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+SELECT * WHERE {
+  ?sub ?pred ?obj .
+} LIMIT 10
+2022-12-11 10:02:48 ["1882tv7hnalqp"] service WARNING: Not all service arguments were found. Expected: array (
+  0 => aeroport_iata,
+)
+but read: array (
+)
+2022-12-11 10:02:48 ["1882tv7hnalqp"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 10:02:48 ["1882tv7hnalqp"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2022-12-11 10:02:48 ["1882tv7hnalqp"] service NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:02:50 ["tn6uv9lj1ieek"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:02:50 ["tn6uv9lj1ieek"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:02:50 ["tn6uv9lj1ieek"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:02:50 ["tn6uv9lj1ieek"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:02:50 ["tn6uv9lj1ieek"] Utils NOTICE: Query HTTP header "Accept": */*
+2022-12-11 10:02:50 ["tn6uv9lj1ieek"] Utils WARNING: Unsupported HTTP method OPTIONS
+2022-12-11 10:02:50 ["tn6uv9lj1ieek"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:02:50 ["goit2i7rvh3st"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:02:50 ["goit2i7rvh3st"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:02:50 ["goit2i7rvh3st"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:02:50 ["goit2i7rvh3st"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2022-12-11 10:02:50 ["goit2i7rvh3st"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2022-12-11 10:02:50 ["goit2i7rvh3st"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+SELECT * WHERE {
+  ?sub ?pred ?obj .
+} LIMIT 10
+2022-12-11 10:02:50 ["goit2i7rvh3st"] service WARNING: Not all service arguments were found. Expected: array (
+  0 => aeroport_iata,
+)
+but read: array (
+)
+2022-12-11 10:02:50 ["goit2i7rvh3st"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 10:02:50 ["goit2i7rvh3st"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2022-12-11 10:02:50 ["goit2i7rvh3st"] service NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:03:42 ["0dmtucep4mmis"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:03:42 ["0dmtucep4mmis"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:03:42 ["0dmtucep4mmis"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:03:42 ["0dmtucep4mmis"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:03:42 ["0dmtucep4mmis"] Utils NOTICE: Query HTTP header "Accept": */*
+2022-12-11 10:03:42 ["0dmtucep4mmis"] Utils WARNING: Unsupported HTTP method OPTIONS
+2022-12-11 10:03:42 ["0dmtucep4mmis"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:03:42 ["pek6sqn7j9dk4"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:03:42 ["pek6sqn7j9dk4"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:03:42 ["pek6sqn7j9dk4"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:03:42 ["pek6sqn7j9dk4"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2022-12-11 10:03:42 ["pek6sqn7j9dk4"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2022-12-11 10:03:42 ["pek6sqn7j9dk4"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+SELECT * WHERE {
+  ?sub ?pred ?obj .
+} LIMIT 10
+2022-12-11 10:03:42 ["pek6sqn7j9dk4"] service WARNING: Not all service arguments were found. Expected: array (
+  0 => aeroport_iata,
+)
+but read: array (
+)
+2022-12-11 10:03:43 ["pek6sqn7j9dk4"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 10:03:43 ["pek6sqn7j9dk4"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2022-12-11 10:03:43 ["pek6sqn7j9dk4"] service NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:03:43 ["r6vhviuslm5bm"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:03:43 ["r6vhviuslm5bm"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:03:43 ["r6vhviuslm5bm"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:03:43 ["r6vhviuslm5bm"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:03:43 ["r6vhviuslm5bm"] Utils NOTICE: Query HTTP header "Accept": */*
+2022-12-11 10:03:43 ["r6vhviuslm5bm"] Utils WARNING: Unsupported HTTP method OPTIONS
+2022-12-11 10:03:43 ["r6vhviuslm5bm"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:03:43 ["169jhbc3u9n61"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:03:43 ["169jhbc3u9n61"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:03:43 ["169jhbc3u9n61"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:03:43 ["169jhbc3u9n61"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2022-12-11 10:03:43 ["169jhbc3u9n61"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2022-12-11 10:03:43 ["169jhbc3u9n61"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+SELECT * WHERE {
+  ?sub ?pred ?obj .
+} LIMIT 10
+2022-12-11 10:03:43 ["169jhbc3u9n61"] service WARNING: Not all service arguments were found. Expected: array (
+  0 => aeroport_iata,
+)
+but read: array (
+)
+2022-12-11 10:03:43 ["169jhbc3u9n61"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 10:03:43 ["169jhbc3u9n61"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2022-12-11 10:03:44 ["169jhbc3u9n61"] service NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:04:07 ["tqia0tqk0qk0a"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:04:07 ["tqia0tqk0qk0a"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:04:07 ["tqia0tqk0qk0a"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:04:07 ["tqia0tqk0qk0a"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:04:07 ["tqia0tqk0qk0a"] Utils NOTICE: Query HTTP header "Accept": */*
+2022-12-11 10:04:07 ["tqia0tqk0qk0a"] Utils WARNING: Unsupported HTTP method OPTIONS
+2022-12-11 10:04:07 ["tqia0tqk0qk0a"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:04:07 ["oacl9d6uar6mk"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:04:07 ["oacl9d6uar6mk"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:04:07 ["oacl9d6uar6mk"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:04:07 ["oacl9d6uar6mk"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2022-12-11 10:04:07 ["oacl9d6uar6mk"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2022-12-11 10:04:07 ["oacl9d6uar6mk"] service NOTICE: Client SPARQL query (html special chars encoded):
+select * where { ?s ?p ?o. }
+2022-12-11 10:04:07 ["oacl9d6uar6mk"] service WARNING: Not all service arguments were found. Expected: array (
+  0 => aeroport_iata,
+)
+but read: array (
+)
+2022-12-11 10:04:07 ["oacl9d6uar6mk"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 10:04:07 ["oacl9d6uar6mk"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2022-12-11 10:04:08 ["oacl9d6uar6mk"] service NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:04:09 ["kopo6q878q1cg"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:04:09 ["kopo6q878q1cg"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:04:09 ["kopo6q878q1cg"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:04:09 ["kopo6q878q1cg"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:04:09 ["kopo6q878q1cg"] Utils NOTICE: Query HTTP header "Accept": */*
+2022-12-11 10:04:09 ["kopo6q878q1cg"] Utils WARNING: Unsupported HTTP method OPTIONS
+2022-12-11 10:04:09 ["kopo6q878q1cg"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:04:09 ["1675859he8vgr"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:04:09 ["1675859he8vgr"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:04:09 ["1675859he8vgr"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:04:09 ["1675859he8vgr"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2022-12-11 10:04:09 ["1675859he8vgr"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2022-12-11 10:04:09 ["1675859he8vgr"] service NOTICE: Client SPARQL query (html special chars encoded):
+select * where { ?s ?p ?o. }
+2022-12-11 10:04:09 ["1675859he8vgr"] service WARNING: Not all service arguments were found. Expected: array (
+  0 => aeroport_iata,
+)
+but read: array (
+)
+2022-12-11 10:04:09 ["1675859he8vgr"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 10:04:09 ["1675859he8vgr"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2022-12-11 10:04:09 ["1675859he8vgr"] service NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:04:10 ["2kt6v514ocj1r"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:04:10 ["2kt6v514ocj1r"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:04:10 ["2kt6v514ocj1r"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:04:10 ["2kt6v514ocj1r"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:04:10 ["2kt6v514ocj1r"] Utils NOTICE: Query HTTP header "Accept": */*
+2022-12-11 10:04:10 ["2kt6v514ocj1r"] Utils WARNING: Unsupported HTTP method OPTIONS
+2022-12-11 10:04:10 ["2kt6v514ocj1r"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:04:10 ["grd8hckcnh7gk"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:04:10 ["grd8hckcnh7gk"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:04:10 ["grd8hckcnh7gk"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:04:10 ["grd8hckcnh7gk"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2022-12-11 10:04:10 ["grd8hckcnh7gk"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2022-12-11 10:04:10 ["grd8hckcnh7gk"] service NOTICE: Client SPARQL query (html special chars encoded):
+select * where { ?s ?p ?o. }
+2022-12-11 10:04:10 ["grd8hckcnh7gk"] service WARNING: Not all service arguments were found. Expected: array (
+  0 => aeroport_iata,
+)
+but read: array (
+)
+2022-12-11 10:04:10 ["grd8hckcnh7gk"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 10:04:10 ["grd8hckcnh7gk"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2022-12-11 10:04:10 ["grd8hckcnh7gk"] service NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:04:13 ["ndmeaor8iudn3"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:04:13 ["ndmeaor8iudn3"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:04:13 ["ndmeaor8iudn3"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:04:13 ["ndmeaor8iudn3"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:04:13 ["ndmeaor8iudn3"] Utils NOTICE: Query HTTP header "Accept": */*
+2022-12-11 10:04:13 ["ndmeaor8iudn3"] Utils WARNING: Unsupported HTTP method OPTIONS
+2022-12-11 10:04:13 ["ndmeaor8iudn3"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:04:13 ["4v6tlbajosmhd"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:04:13 ["4v6tlbajosmhd"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:04:13 ["4v6tlbajosmhd"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:04:13 ["4v6tlbajosmhd"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2022-12-11 10:04:13 ["4v6tlbajosmhd"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2022-12-11 10:04:13 ["4v6tlbajosmhd"] service NOTICE: Client SPARQL query (html special chars encoded):
+select * where { ?s ?p ?o. }
+2022-12-11 10:04:13 ["4v6tlbajosmhd"] service WARNING: Not all service arguments were found. Expected: array (
+  0 => aeroport_iata,
+)
+but read: array (
+)
+2022-12-11 10:04:13 ["4v6tlbajosmhd"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 10:04:13 ["4v6tlbajosmhd"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2022-12-11 10:04:13 ["4v6tlbajosmhd"] service NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:04:24 ["lkk031qc6dv13"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:04:24 ["lkk031qc6dv13"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:04:24 ["lkk031qc6dv13"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:04:24 ["lkk031qc6dv13"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:04:24 ["lkk031qc6dv13"] Utils NOTICE: Query HTTP header "Accept": text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+2022-12-11 10:04:24 ["lkk031qc6dv13"] Utils WARNING: SPARQL query with HTTP GET method but no 'query' argument.
+2022-12-11 10:04:24 ["lkk031qc6dv13"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:04:42 ["f16n3sv5stqip"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:04:42 ["f16n3sv5stqip"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:04:42 ["f16n3sv5stqip"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:04:42 ["f16n3sv5stqip"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:04:42 ["f16n3sv5stqip"] Utils NOTICE: Query HTTP header "Accept": */*
+2022-12-11 10:04:42 ["f16n3sv5stqip"] Utils WARNING: Unsupported HTTP method OPTIONS
+2022-12-11 10:04:42 ["f16n3sv5stqip"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:04:42 ["6ajrtrgrhg5gj"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:04:42 ["6ajrtrgrhg5gj"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:04:42 ["6ajrtrgrhg5gj"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:04:42 ["6ajrtrgrhg5gj"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2022-12-11 10:04:42 ["6ajrtrgrhg5gj"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2022-12-11 10:04:42 ["6ajrtrgrhg5gj"] service NOTICE: Client SPARQL query (html special chars encoded):
+select * where { ?s ?p ?o. }
+2022-12-11 10:04:42 ["6ajrtrgrhg5gj"] service WARNING: Not all service arguments were found. Expected: array (
+  0 => aeroport_iata,
+)
+but read: array (
+)
+2022-12-11 10:04:42 ["6ajrtrgrhg5gj"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 10:04:42 ["6ajrtrgrhg5gj"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2022-12-11 10:04:42 ["6ajrtrgrhg5gj"] service NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:04:43 ["441f616lfdhrt"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:04:43 ["441f616lfdhrt"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:04:43 ["441f616lfdhrt"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:04:44 ["441f616lfdhrt"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:04:44 ["441f616lfdhrt"] Utils NOTICE: Query HTTP header "Accept": */*
+2022-12-11 10:04:44 ["441f616lfdhrt"] Utils WARNING: Unsupported HTTP method OPTIONS
+2022-12-11 10:04:44 ["441f616lfdhrt"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:04:44 ["sl80dds4df3tt"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:04:44 ["sl80dds4df3tt"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:04:44 ["sl80dds4df3tt"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:04:44 ["sl80dds4df3tt"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2022-12-11 10:04:44 ["sl80dds4df3tt"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2022-12-11 10:04:44 ["sl80dds4df3tt"] service NOTICE: Client SPARQL query (html special chars encoded):
+select * where { ?s ?p ?o. }
+2022-12-11 10:04:44 ["sl80dds4df3tt"] service WARNING: Not all service arguments were found. Expected: array (
+  0 => aeroport_iata,
+)
+but read: array (
+)
+2022-12-11 10:04:44 ["sl80dds4df3tt"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 10:04:44 ["sl80dds4df3tt"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2022-12-11 10:04:44 ["sl80dds4df3tt"] service NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:05:10 ["lkk031qc6dv13"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:05:10 ["lkk031qc6dv13"] service NOTICE: Query parameter (html special chars encoded) 'service': deezer/findAlbums
+2022-12-11 10:05:10 ["lkk031qc6dv13"] Utils WARNING: service deezer/findAlbums not found.
+2022-12-11 10:05:10 ["lkk031qc6dv13"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:05:18 ["5het28tj72pgh"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:05:18 ["5het28tj72pgh"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:05:18 ["5het28tj72pgh"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:05:18 ["5het28tj72pgh"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:05:18 ["5het28tj72pgh"] Utils NOTICE: Query HTTP header "Accept": */*
+2022-12-11 10:05:18 ["5het28tj72pgh"] Utils WARNING: Unsupported HTTP method OPTIONS
+2022-12-11 10:05:18 ["5het28tj72pgh"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:05:18 ["soqtcl0boj18a"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:05:18 ["soqtcl0boj18a"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:05:18 ["soqtcl0boj18a"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:05:18 ["soqtcl0boj18a"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2022-12-11 10:05:18 ["soqtcl0boj18a"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2022-12-11 10:05:18 ["soqtcl0boj18a"] service NOTICE: Client SPARQL query (html special chars encoded):
+select * where { ?s ?p ?o. }
+2022-12-11 10:05:18 ["soqtcl0boj18a"] service WARNING: Not all service arguments were found. Expected: array (
+  0 => aeroport_iata,
+)
+but read: array (
+)
+2022-12-11 10:05:18 ["soqtcl0boj18a"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 10:05:18 ["soqtcl0boj18a"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2022-12-11 10:05:18 ["soqtcl0boj18a"] service NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:05:19 ["rp43uh1s8mp79"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:05:19 ["rp43uh1s8mp79"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:05:19 ["rp43uh1s8mp79"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:05:19 ["rp43uh1s8mp79"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:05:19 ["rp43uh1s8mp79"] Utils NOTICE: Query HTTP header "Accept": */*
+2022-12-11 10:05:19 ["rp43uh1s8mp79"] Utils WARNING: Unsupported HTTP method OPTIONS
+2022-12-11 10:05:19 ["rp43uh1s8mp79"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:05:19 ["dol0akf8kko29"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:05:19 ["dol0akf8kko29"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:05:19 ["dol0akf8kko29"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:05:19 ["dol0akf8kko29"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2022-12-11 10:05:19 ["dol0akf8kko29"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2022-12-11 10:05:19 ["dol0akf8kko29"] service NOTICE: Client SPARQL query (html special chars encoded):
+select * where { ?s ?p ?o. }
+2022-12-11 10:05:19 ["dol0akf8kko29"] service WARNING: Not all service arguments were found. Expected: array (
+  0 => aeroport_iata,
+)
+but read: array (
+)
+2022-12-11 10:05:19 ["dol0akf8kko29"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 10:05:19 ["dol0akf8kko29"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2022-12-11 10:05:19 ["dol0akf8kko29"] service NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:05:20 ["0p16555odopd3"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:05:20 ["0p16555odopd3"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:05:20 ["0p16555odopd3"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:05:20 ["0p16555odopd3"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:05:20 ["0p16555odopd3"] Utils NOTICE: Query HTTP header "Accept": */*
+2022-12-11 10:05:20 ["0p16555odopd3"] Utils WARNING: Unsupported HTTP method OPTIONS
+2022-12-11 10:05:20 ["0p16555odopd3"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:05:20 ["5i80r6f481u23"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:05:20 ["5i80r6f481u23"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:05:20 ["5i80r6f481u23"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:05:20 ["5i80r6f481u23"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2022-12-11 10:05:20 ["5i80r6f481u23"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2022-12-11 10:05:20 ["5i80r6f481u23"] service NOTICE: Client SPARQL query (html special chars encoded):
+select * where { ?s ?p ?o. }
+2022-12-11 10:05:20 ["5i80r6f481u23"] service WARNING: Not all service arguments were found. Expected: array (
+  0 => aeroport_iata,
+)
+but read: array (
+)
+2022-12-11 10:05:20 ["5i80r6f481u23"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 10:05:20 ["5i80r6f481u23"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2022-12-11 10:05:20 ["5i80r6f481u23"] service NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:05:21 ["7sclhqfgm89k5"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:05:21 ["7sclhqfgm89k5"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:05:21 ["7sclhqfgm89k5"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:05:21 ["7sclhqfgm89k5"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:05:21 ["7sclhqfgm89k5"] Utils NOTICE: Query HTTP header "Accept": */*
+2022-12-11 10:05:21 ["7sclhqfgm89k5"] Utils WARNING: Unsupported HTTP method OPTIONS
+2022-12-11 10:05:21 ["7sclhqfgm89k5"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:05:21 ["b3eo2g8qvqkh2"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:05:21 ["b3eo2g8qvqkh2"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:05:21 ["b3eo2g8qvqkh2"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:05:21 ["b3eo2g8qvqkh2"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2022-12-11 10:05:21 ["b3eo2g8qvqkh2"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2022-12-11 10:05:21 ["b3eo2g8qvqkh2"] service NOTICE: Client SPARQL query (html special chars encoded):
+select * where { ?s ?p ?o. }
+2022-12-11 10:05:21 ["b3eo2g8qvqkh2"] service WARNING: Not all service arguments were found. Expected: array (
+  0 => aeroport_iata,
+)
+but read: array (
+)
+2022-12-11 10:05:21 ["b3eo2g8qvqkh2"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 10:05:21 ["b3eo2g8qvqkh2"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2022-12-11 10:05:21 ["b3eo2g8qvqkh2"] service NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:05:43 ["fb60mfcj3iief"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:05:43 ["fb60mfcj3iief"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:05:43 ["fb60mfcj3iief"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:05:43 ["fb60mfcj3iief"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:05:43 ["fb60mfcj3iief"] Utils NOTICE: Query HTTP header "Accept": */*
+2022-12-11 10:05:43 ["fb60mfcj3iief"] Utils WARNING: Unsupported HTTP method OPTIONS
+2022-12-11 10:05:43 ["fb60mfcj3iief"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:05:43 ["1b29c2jp3gnt0"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:05:43 ["1b29c2jp3gnt0"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:05:43 ["1b29c2jp3gnt0"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:05:43 ["1b29c2jp3gnt0"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:05:43 ["1b29c2jp3gnt0"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2022-12-11 10:05:43 ["1b29c2jp3gnt0"] service NOTICE: Client SPARQL query (html special chars encoded):
+select * where { ?s ?p ?o. }
+2022-12-11 10:05:43 ["1b29c2jp3gnt0"] service WARNING: Not all service arguments were found. Expected: array (
+  0 => aeroport_iata,
+)
+but read: array (
+)
+2022-12-11 10:05:43 ["1b29c2jp3gnt0"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 10:05:43 ["1b29c2jp3gnt0"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2022-12-11 10:05:43 ["1b29c2jp3gnt0"] service NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:05:44 ["5qek39dmhfrfo"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:05:44 ["5qek39dmhfrfo"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:05:44 ["5qek39dmhfrfo"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:05:44 ["5qek39dmhfrfo"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:05:44 ["5qek39dmhfrfo"] Utils NOTICE: Query HTTP header "Accept": */*
+2022-12-11 10:05:44 ["5qek39dmhfrfo"] Utils WARNING: Unsupported HTTP method OPTIONS
+2022-12-11 10:05:44 ["5qek39dmhfrfo"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:05:45 ["k4ods9gf2kske"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:05:45 ["k4ods9gf2kske"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:05:45 ["k4ods9gf2kske"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:05:45 ["k4ods9gf2kske"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:05:45 ["k4ods9gf2kske"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2022-12-11 10:05:45 ["k4ods9gf2kske"] service NOTICE: Client SPARQL query (html special chars encoded):
+select * where { ?s ?p ?o. }
+2022-12-11 10:05:45 ["k4ods9gf2kske"] service WARNING: Not all service arguments were found. Expected: array (
+  0 => aeroport_iata,
+)
+but read: array (
+)
+2022-12-11 10:05:45 ["k4ods9gf2kske"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 10:05:45 ["k4ods9gf2kske"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2022-12-11 10:05:45 ["k4ods9gf2kske"] service NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:05:45 ["5ce5kpqjuv581"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:05:45 ["5ce5kpqjuv581"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:05:45 ["5ce5kpqjuv581"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:05:45 ["5ce5kpqjuv581"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:05:45 ["5ce5kpqjuv581"] Utils NOTICE: Query HTTP header "Accept": */*
+2022-12-11 10:05:45 ["5ce5kpqjuv581"] Utils WARNING: Unsupported HTTP method OPTIONS
+2022-12-11 10:05:45 ["5ce5kpqjuv581"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:05:45 ["t173olhku5al2"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:05:45 ["t173olhku5al2"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:05:45 ["t173olhku5al2"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:05:45 ["t173olhku5al2"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:05:45 ["t173olhku5al2"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2022-12-11 10:05:45 ["t173olhku5al2"] service NOTICE: Client SPARQL query (html special chars encoded):
+select * where { ?s ?p ?o. }
+2022-12-11 10:05:45 ["t173olhku5al2"] service WARNING: Not all service arguments were found. Expected: array (
+  0 => aeroport_iata,
+)
+but read: array (
+)
+2022-12-11 10:05:45 ["t173olhku5al2"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 10:05:45 ["t173olhku5al2"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2022-12-11 10:05:45 ["t173olhku5al2"] service NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:05:46 ["uk83au9t1rbr7"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:05:46 ["uk83au9t1rbr7"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:05:46 ["uk83au9t1rbr7"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:05:46 ["uk83au9t1rbr7"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:05:46 ["uk83au9t1rbr7"] Utils NOTICE: Query HTTP header "Accept": */*
+2022-12-11 10:05:46 ["uk83au9t1rbr7"] Utils WARNING: Unsupported HTTP method OPTIONS
+2022-12-11 10:05:46 ["uk83au9t1rbr7"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:05:46 ["epv2bpkbck9pp"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:05:46 ["epv2bpkbck9pp"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:05:46 ["epv2bpkbck9pp"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:05:46 ["epv2bpkbck9pp"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:05:46 ["epv2bpkbck9pp"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2022-12-11 10:05:46 ["epv2bpkbck9pp"] service NOTICE: Client SPARQL query (html special chars encoded):
+select * where { ?s ?p ?o. }
+2022-12-11 10:05:46 ["epv2bpkbck9pp"] service WARNING: Not all service arguments were found. Expected: array (
+  0 => aeroport_iata,
+)
+but read: array (
+)
+2022-12-11 10:05:46 ["epv2bpkbck9pp"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 10:05:46 ["epv2bpkbck9pp"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2022-12-11 10:05:46 ["epv2bpkbck9pp"] service NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:06:11 ["brf1flgrp5h5p"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:06:11 ["brf1flgrp5h5p"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:06:11 ["brf1flgrp5h5p"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:06:11 ["brf1flgrp5h5p"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:06:11 ["brf1flgrp5h5p"] Utils NOTICE: Query HTTP header "Accept": */*
+2022-12-11 10:06:11 ["brf1flgrp5h5p"] Utils WARNING: Unsupported HTTP method OPTIONS
+2022-12-11 10:06:11 ["brf1flgrp5h5p"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:06:11 ["kk147024p4pll"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:06:11 ["kk147024p4pll"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:06:11 ["kk147024p4pll"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:06:11 ["kk147024p4pll"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:06:11 ["kk147024p4pll"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2022-12-11 10:06:11 ["kk147024p4pll"] service NOTICE: Client SPARQL query (html special chars encoded):
+select * where { ?s ?p ?o. }
+2022-12-11 10:06:11 ["kk147024p4pll"] service WARNING: Not all service arguments were found. Expected: array (
+  0 => aeroport_iata,
+)
+but read: array (
+)
+2022-12-11 10:06:11 ["kk147024p4pll"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 10:06:11 ["kk147024p4pll"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2022-12-11 10:06:11 ["kk147024p4pll"] service NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:06:12 ["dk2gag8f7ejih"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:06:12 ["dk2gag8f7ejih"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:06:12 ["dk2gag8f7ejih"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:06:12 ["dk2gag8f7ejih"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:06:12 ["dk2gag8f7ejih"] Utils NOTICE: Query HTTP header "Accept": */*
+2022-12-11 10:06:12 ["dk2gag8f7ejih"] Utils WARNING: Unsupported HTTP method OPTIONS
+2022-12-11 10:06:12 ["dk2gag8f7ejih"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:06:12 ["2bu1voee37rnb"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:06:12 ["2bu1voee37rnb"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:06:12 ["2bu1voee37rnb"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:06:12 ["2bu1voee37rnb"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:06:12 ["2bu1voee37rnb"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2022-12-11 10:06:12 ["2bu1voee37rnb"] service NOTICE: Client SPARQL query (html special chars encoded):
+select * where { ?s ?p ?o. }
+2022-12-11 10:06:12 ["2bu1voee37rnb"] service WARNING: Not all service arguments were found. Expected: array (
+  0 => aeroport_iata,
+)
+but read: array (
+)
+2022-12-11 10:06:12 ["2bu1voee37rnb"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 10:06:12 ["2bu1voee37rnb"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2022-12-11 10:06:12 ["2bu1voee37rnb"] service NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:06:18 ["hek2piajheips"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:06:18 ["hek2piajheips"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:06:18 ["hek2piajheips"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:06:18 ["hek2piajheips"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:06:18 ["hek2piajheips"] Utils NOTICE: Query HTTP header "Accept": */*
+2022-12-11 10:06:18 ["hek2piajheips"] Utils WARNING: Unsupported HTTP method OPTIONS
+2022-12-11 10:06:18 ["hek2piajheips"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:06:18 ["jo316hs71amf1"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:06:18 ["jo316hs71amf1"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:06:18 ["jo316hs71amf1"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:06:18 ["jo316hs71amf1"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:06:18 ["jo316hs71amf1"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2022-12-11 10:06:18 ["jo316hs71amf1"] service NOTICE: Client SPARQL query (html special chars encoded):
+select * where { ?s ?p ?o. }
+2022-12-11 10:06:18 ["jo316hs71amf1"] service WARNING: Not all service arguments were found. Expected: array (
+  0 => aeroport_iata,
+)
+but read: array (
+)
+2022-12-11 10:06:18 ["jo316hs71amf1"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 10:06:18 ["jo316hs71amf1"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2022-12-11 10:06:18 ["jo316hs71amf1"] service NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:06:46 ["fmr908v8qa5h1"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:06:46 ["fmr908v8qa5h1"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:06:46 ["fmr908v8qa5h1"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:06:46 ["fmr908v8qa5h1"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:06:46 ["fmr908v8qa5h1"] Utils NOTICE: Query HTTP header "Accept": */*
+2022-12-11 10:06:46 ["fmr908v8qa5h1"] Utils WARNING: Unsupported HTTP method OPTIONS
+2022-12-11 10:06:46 ["fmr908v8qa5h1"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:06:46 ["eu6hiua50osrh"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:06:46 ["eu6hiua50osrh"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:06:46 ["eu6hiua50osrh"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:06:46 ["eu6hiua50osrh"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:06:46 ["eu6hiua50osrh"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2022-12-11 10:06:46 ["eu6hiua50osrh"] service NOTICE: Client SPARQL query (html special chars encoded):
+select * where { ?s ?p ?o. }
+2022-12-11 10:06:46 ["eu6hiua50osrh"] service WARNING: Not all service arguments were found. Expected: array (
+  0 => aeroport_iata,
+)
+but read: array (
+)
+2022-12-11 10:06:46 ["eu6hiua50osrh"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 10:06:46 ["eu6hiua50osrh"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2022-12-11 10:06:46 ["eu6hiua50osrh"] service NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:07:05 ["iosofegdpqa00"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:07:05 ["iosofegdpqa00"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:07:05 ["iosofegdpqa00"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:07:05 ["iosofegdpqa00"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:07:05 ["iosofegdpqa00"] Utils NOTICE: Query HTTP header "Accept": */*
+2022-12-11 10:07:05 ["iosofegdpqa00"] Utils WARNING: Unsupported HTTP method OPTIONS
+2022-12-11 10:07:05 ["iosofegdpqa00"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:07:05 ["t7q3b58vt7o1n"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:07:05 ["t7q3b58vt7o1n"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:07:05 ["t7q3b58vt7o1n"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:07:05 ["t7q3b58vt7o1n"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2022-12-11 10:07:05 ["t7q3b58vt7o1n"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2022-12-11 10:07:05 ["t7q3b58vt7o1n"] service NOTICE: Client SPARQL query (html special chars encoded):
+select * where { ?s ?p ?o. }
+2022-12-11 10:07:05 ["t7q3b58vt7o1n"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [aeroport_iata] => AGA
+)
+
+2022-12-11 10:07:05 ["t7q3b58vt7o1n"] service NOTICE: Web API query string: https://app.goflightlabs.com/advanced-real-time-flights?access_key=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI0IiwianRpIjoiYzA1YWI5ODRiM2ZjMzg1NTVjNjgzZjEzMzRhYjA2NzU4OTk4ZGE2MGQ0OGM0OTIzNzIxMmVjNzAxOTM5ZGQ5OGQ0OGJhZjA0ZjQ2YTRhOWIiLCJpYXQiOjE2NzAyMjg3ODQsIm5iZiI6MTY3MDIyODc4NCwiZXhwIjoxNzAxNzY0Nzg0LCJzdWIiOiIxOTEwOCIsInNjb3BlcyI6W119.XYSGIskzdtgoVnX7rIEaquOrrvzrECJMu42_R4LkKVUXEqXmlQy2RqSvXpcsGz1OkUkR8hWZYfklwlZ4mg_Fxg&arrIata=AGA
+2022-12-11 10:07:05 ["t7q3b58vt7o1n"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2022-12-11 10:07:06 ["t7q3b58vt7o1n"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 10:07:06 ["t7q3b58vt7o1n"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2022-12-11 10:07:06 ["t7q3b58vt7o1n"] service NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:07:06 ["j4cq35pamchpr"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:07:06 ["j4cq35pamchpr"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:07:06 ["j4cq35pamchpr"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:07:06 ["j4cq35pamchpr"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:07:06 ["j4cq35pamchpr"] Utils NOTICE: Query HTTP header "Accept": */*
+2022-12-11 10:07:06 ["j4cq35pamchpr"] Utils WARNING: Unsupported HTTP method OPTIONS
+2022-12-11 10:07:06 ["j4cq35pamchpr"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:07:06 ["71or2vo3mdb32"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:07:06 ["71or2vo3mdb32"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:07:06 ["71or2vo3mdb32"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:07:06 ["71or2vo3mdb32"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2022-12-11 10:07:06 ["71or2vo3mdb32"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2022-12-11 10:07:06 ["71or2vo3mdb32"] service NOTICE: Client SPARQL query (html special chars encoded):
+select * where { ?s ?p ?o. }
+2022-12-11 10:07:06 ["71or2vo3mdb32"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [aeroport_iata] => AGA
+)
+
+2022-12-11 10:07:06 ["71or2vo3mdb32"] service NOTICE: Web API query string: https://app.goflightlabs.com/advanced-real-time-flights?access_key=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI0IiwianRpIjoiYzA1YWI5ODRiM2ZjMzg1NTVjNjgzZjEzMzRhYjA2NzU4OTk4ZGE2MGQ0OGM0OTIzNzIxMmVjNzAxOTM5ZGQ5OGQ0OGJhZjA0ZjQ2YTRhOWIiLCJpYXQiOjE2NzAyMjg3ODQsIm5iZiI6MTY3MDIyODc4NCwiZXhwIjoxNzAxNzY0Nzg0LCJzdWIiOiIxOTEwOCIsInNjb3BlcyI6W119.XYSGIskzdtgoVnX7rIEaquOrrvzrECJMu42_R4LkKVUXEqXmlQy2RqSvXpcsGz1OkUkR8hWZYfklwlZ4mg_Fxg&arrIata=AGA
+2022-12-11 10:07:06 ["71or2vo3mdb32"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2022-12-11 10:07:07 ["71or2vo3mdb32"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 10:07:07 ["71or2vo3mdb32"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2022-12-11 10:07:07 ["71or2vo3mdb32"] service NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:07:11 ["rnistnnkut7t8"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:07:11 ["rnistnnkut7t8"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:07:11 ["rnistnnkut7t8"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:07:11 ["rnistnnkut7t8"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:07:11 ["rnistnnkut7t8"] Utils NOTICE: Query HTTP header "Accept": */*
+2022-12-11 10:07:11 ["rnistnnkut7t8"] Utils WARNING: Unsupported HTTP method OPTIONS
+2022-12-11 10:07:11 ["rnistnnkut7t8"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:07:11 ["cg7f8d16lc8kg"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:07:11 ["cg7f8d16lc8kg"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:07:11 ["cg7f8d16lc8kg"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:07:11 ["cg7f8d16lc8kg"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2022-12-11 10:07:11 ["cg7f8d16lc8kg"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2022-12-11 10:07:11 ["cg7f8d16lc8kg"] service NOTICE: Client SPARQL query (html special chars encoded):
+select * where { ?s ?p ?o. }
+2022-12-11 10:07:11 ["cg7f8d16lc8kg"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [aeroport_iata] => AGA
+)
+
+2022-12-11 10:07:11 ["cg7f8d16lc8kg"] service NOTICE: Web API query string: https://app.goflightlabs.com/advanced-real-time-flights?access_key=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI0IiwianRpIjoiYzA1YWI5ODRiM2ZjMzg1NTVjNjgzZjEzMzRhYjA2NzU4OTk4ZGE2MGQ0OGM0OTIzNzIxMmVjNzAxOTM5ZGQ5OGQ0OGJhZjA0ZjQ2YTRhOWIiLCJpYXQiOjE2NzAyMjg3ODQsIm5iZiI6MTY3MDIyODc4NCwiZXhwIjoxNzAxNzY0Nzg0LCJzdWIiOiIxOTEwOCIsInNjb3BlcyI6W119.XYSGIskzdtgoVnX7rIEaquOrrvzrECJMu42_R4LkKVUXEqXmlQy2RqSvXpcsGz1OkUkR8hWZYfklwlZ4mg_Fxg&arrIata=AGA
+2022-12-11 10:07:11 ["cg7f8d16lc8kg"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2022-12-11 10:07:11 ["cg7f8d16lc8kg"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 10:07:12 ["cg7f8d16lc8kg"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2022-12-11 10:07:12 ["cg7f8d16lc8kg"] service NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:07:13 ["32t6e6pjb5jnq"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:07:13 ["32t6e6pjb5jnq"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:07:13 ["32t6e6pjb5jnq"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:07:13 ["32t6e6pjb5jnq"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:07:13 ["32t6e6pjb5jnq"] Utils NOTICE: Query HTTP header "Accept": */*
+2022-12-11 10:07:13 ["32t6e6pjb5jnq"] Utils WARNING: Unsupported HTTP method OPTIONS
+2022-12-11 10:07:13 ["32t6e6pjb5jnq"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:07:13 ["gm0kgfo8a8ubi"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:07:13 ["gm0kgfo8a8ubi"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:07:13 ["gm0kgfo8a8ubi"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:07:13 ["gm0kgfo8a8ubi"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2022-12-11 10:07:13 ["gm0kgfo8a8ubi"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2022-12-11 10:07:13 ["gm0kgfo8a8ubi"] service NOTICE: Client SPARQL query (html special chars encoded):
+select * where { ?s ?p ?o. }
+2022-12-11 10:07:13 ["gm0kgfo8a8ubi"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [aeroport_iata] => AGA
+)
+
+2022-12-11 10:07:13 ["gm0kgfo8a8ubi"] service NOTICE: Web API query string: https://app.goflightlabs.com/advanced-real-time-flights?access_key=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI0IiwianRpIjoiYzA1YWI5ODRiM2ZjMzg1NTVjNjgzZjEzMzRhYjA2NzU4OTk4ZGE2MGQ0OGM0OTIzNzIxMmVjNzAxOTM5ZGQ5OGQ0OGJhZjA0ZjQ2YTRhOWIiLCJpYXQiOjE2NzAyMjg3ODQsIm5iZiI6MTY3MDIyODc4NCwiZXhwIjoxNzAxNzY0Nzg0LCJzdWIiOiIxOTEwOCIsInNjb3BlcyI6W119.XYSGIskzdtgoVnX7rIEaquOrrvzrECJMu42_R4LkKVUXEqXmlQy2RqSvXpcsGz1OkUkR8hWZYfklwlZ4mg_Fxg&arrIata=AGA
+2022-12-11 10:07:13 ["gm0kgfo8a8ubi"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2022-12-11 10:07:13 ["gm0kgfo8a8ubi"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 10:07:13 ["gm0kgfo8a8ubi"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2022-12-11 10:07:13 ["gm0kgfo8a8ubi"] service NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:07:13 ["1r343m135jum9"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:07:13 ["1r343m135jum9"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:07:13 ["1r343m135jum9"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:07:13 ["1r343m135jum9"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:07:13 ["1r343m135jum9"] Utils NOTICE: Query HTTP header "Accept": */*
+2022-12-11 10:07:13 ["1r343m135jum9"] Utils WARNING: Unsupported HTTP method OPTIONS
+2022-12-11 10:07:13 ["1r343m135jum9"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:07:13 ["rmpb9v73k56v5"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:07:13 ["rmpb9v73k56v5"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:07:13 ["rmpb9v73k56v5"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:07:13 ["rmpb9v73k56v5"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2022-12-11 10:07:14 ["rmpb9v73k56v5"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2022-12-11 10:07:14 ["rmpb9v73k56v5"] service NOTICE: Client SPARQL query (html special chars encoded):
+select * where { ?s ?p ?o. }
+2022-12-11 10:07:14 ["rmpb9v73k56v5"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [aeroport_iata] => AGA
+)
+
+2022-12-11 10:07:14 ["rmpb9v73k56v5"] service NOTICE: Web API query string: https://app.goflightlabs.com/advanced-real-time-flights?access_key=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI0IiwianRpIjoiYzA1YWI5ODRiM2ZjMzg1NTVjNjgzZjEzMzRhYjA2NzU4OTk4ZGE2MGQ0OGM0OTIzNzIxMmVjNzAxOTM5ZGQ5OGQ0OGJhZjA0ZjQ2YTRhOWIiLCJpYXQiOjE2NzAyMjg3ODQsIm5iZiI6MTY3MDIyODc4NCwiZXhwIjoxNzAxNzY0Nzg0LCJzdWIiOiIxOTEwOCIsInNjb3BlcyI6W119.XYSGIskzdtgoVnX7rIEaquOrrvzrECJMu42_R4LkKVUXEqXmlQy2RqSvXpcsGz1OkUkR8hWZYfklwlZ4mg_Fxg&arrIata=AGA
+2022-12-11 10:07:14 ["rmpb9v73k56v5"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2022-12-11 10:07:14 ["rmpb9v73k56v5"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 10:07:14 ["rmpb9v73k56v5"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2022-12-11 10:07:14 ["rmpb9v73k56v5"] service NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:07:15 ["erbre6id97g5l"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:07:15 ["erbre6id97g5l"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:07:15 ["erbre6id97g5l"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:07:15 ["erbre6id97g5l"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:07:15 ["erbre6id97g5l"] Utils NOTICE: Query HTTP header "Accept": */*
+2022-12-11 10:07:15 ["erbre6id97g5l"] Utils WARNING: Unsupported HTTP method OPTIONS
+2022-12-11 10:07:15 ["erbre6id97g5l"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:07:15 ["rug8m4jcm73o1"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:07:15 ["rug8m4jcm73o1"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:07:15 ["rug8m4jcm73o1"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:07:15 ["rug8m4jcm73o1"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2022-12-11 10:07:15 ["rug8m4jcm73o1"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2022-12-11 10:07:15 ["rug8m4jcm73o1"] service NOTICE: Client SPARQL query (html special chars encoded):
+select * where { ?s ?p ?o. }
+2022-12-11 10:07:15 ["rug8m4jcm73o1"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [aeroport_iata] => AGA
+)
+
+2022-12-11 10:07:15 ["rug8m4jcm73o1"] service NOTICE: Web API query string: https://app.goflightlabs.com/advanced-real-time-flights?access_key=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI0IiwianRpIjoiYzA1YWI5ODRiM2ZjMzg1NTVjNjgzZjEzMzRhYjA2NzU4OTk4ZGE2MGQ0OGM0OTIzNzIxMmVjNzAxOTM5ZGQ5OGQ0OGJhZjA0ZjQ2YTRhOWIiLCJpYXQiOjE2NzAyMjg3ODQsIm5iZiI6MTY3MDIyODc4NCwiZXhwIjoxNzAxNzY0Nzg0LCJzdWIiOiIxOTEwOCIsInNjb3BlcyI6W119.XYSGIskzdtgoVnX7rIEaquOrrvzrECJMu42_R4LkKVUXEqXmlQy2RqSvXpcsGz1OkUkR8hWZYfklwlZ4mg_Fxg&arrIata=AGA
+2022-12-11 10:07:15 ["rug8m4jcm73o1"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2022-12-11 10:07:15 ["rug8m4jcm73o1"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 10:07:15 ["rug8m4jcm73o1"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2022-12-11 10:07:15 ["rug8m4jcm73o1"] service NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:07:16 ["kd1rl3uevkrql"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:07:16 ["kd1rl3uevkrql"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:07:16 ["kd1rl3uevkrql"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:07:16 ["kd1rl3uevkrql"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:07:16 ["kd1rl3uevkrql"] Utils NOTICE: Query HTTP header "Accept": */*
+2022-12-11 10:07:16 ["kd1rl3uevkrql"] Utils WARNING: Unsupported HTTP method OPTIONS
+2022-12-11 10:07:16 ["kd1rl3uevkrql"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:07:17 ["fg4ri894qb2ep"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:07:17 ["fg4ri894qb2ep"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:07:17 ["fg4ri894qb2ep"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:07:17 ["fg4ri894qb2ep"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2022-12-11 10:07:17 ["fg4ri894qb2ep"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2022-12-11 10:07:17 ["fg4ri894qb2ep"] service NOTICE: Client SPARQL query (html special chars encoded):
+select * where { ?s ?p ?o. }
+2022-12-11 10:07:17 ["fg4ri894qb2ep"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [aeroport_iata] => AGA
+)
+
+2022-12-11 10:07:17 ["fg4ri894qb2ep"] service NOTICE: Web API query string: https://app.goflightlabs.com/advanced-real-time-flights?access_key=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI0IiwianRpIjoiYzA1YWI5ODRiM2ZjMzg1NTVjNjgzZjEzMzRhYjA2NzU4OTk4ZGE2MGQ0OGM0OTIzNzIxMmVjNzAxOTM5ZGQ5OGQ0OGJhZjA0ZjQ2YTRhOWIiLCJpYXQiOjE2NzAyMjg3ODQsIm5iZiI6MTY3MDIyODc4NCwiZXhwIjoxNzAxNzY0Nzg0LCJzdWIiOiIxOTEwOCIsInNjb3BlcyI6W119.XYSGIskzdtgoVnX7rIEaquOrrvzrECJMu42_R4LkKVUXEqXmlQy2RqSvXpcsGz1OkUkR8hWZYfklwlZ4mg_Fxg&arrIata=AGA
+2022-12-11 10:07:17 ["fg4ri894qb2ep"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2022-12-11 10:07:17 ["fg4ri894qb2ep"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 10:07:17 ["fg4ri894qb2ep"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2022-12-11 10:07:17 ["fg4ri894qb2ep"] service NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:07:18 ["fqmkv203evn0s"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:07:18 ["fqmkv203evn0s"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:07:18 ["fqmkv203evn0s"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:07:18 ["fqmkv203evn0s"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:07:18 ["fqmkv203evn0s"] Utils NOTICE: Query HTTP header "Accept": */*
+2022-12-11 10:07:18 ["fqmkv203evn0s"] Utils WARNING: Unsupported HTTP method OPTIONS
+2022-12-11 10:07:18 ["fqmkv203evn0s"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:07:18 ["quu1rhsu0uvmj"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:07:18 ["quu1rhsu0uvmj"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:07:18 ["quu1rhsu0uvmj"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:07:18 ["quu1rhsu0uvmj"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2022-12-11 10:07:18 ["quu1rhsu0uvmj"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2022-12-11 10:07:18 ["quu1rhsu0uvmj"] service NOTICE: Client SPARQL query (html special chars encoded):
+select * where { ?s ?p ?o. }
+2022-12-11 10:07:18 ["quu1rhsu0uvmj"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [aeroport_iata] => AGA
+)
+
+2022-12-11 10:07:18 ["quu1rhsu0uvmj"] service NOTICE: Web API query string: https://app.goflightlabs.com/advanced-real-time-flights?access_key=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI0IiwianRpIjoiYzA1YWI5ODRiM2ZjMzg1NTVjNjgzZjEzMzRhYjA2NzU4OTk4ZGE2MGQ0OGM0OTIzNzIxMmVjNzAxOTM5ZGQ5OGQ0OGJhZjA0ZjQ2YTRhOWIiLCJpYXQiOjE2NzAyMjg3ODQsIm5iZiI6MTY3MDIyODc4NCwiZXhwIjoxNzAxNzY0Nzg0LCJzdWIiOiIxOTEwOCIsInNjb3BlcyI6W119.XYSGIskzdtgoVnX7rIEaquOrrvzrECJMu42_R4LkKVUXEqXmlQy2RqSvXpcsGz1OkUkR8hWZYfklwlZ4mg_Fxg&arrIata=AGA
+2022-12-11 10:07:18 ["quu1rhsu0uvmj"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2022-12-11 10:07:18 ["quu1rhsu0uvmj"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 10:07:18 ["quu1rhsu0uvmj"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2022-12-11 10:07:18 ["quu1rhsu0uvmj"] service NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:07:19 ["k5suvspd48vkt"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:07:19 ["k5suvspd48vkt"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:07:19 ["k5suvspd48vkt"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:07:19 ["k5suvspd48vkt"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:07:19 ["k5suvspd48vkt"] Utils NOTICE: Query HTTP header "Accept": */*
+2022-12-11 10:07:19 ["k5suvspd48vkt"] Utils WARNING: Unsupported HTTP method OPTIONS
+2022-12-11 10:07:19 ["k5suvspd48vkt"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:07:19 ["rolg3qaf4maq5"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:07:19 ["rolg3qaf4maq5"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:07:19 ["rolg3qaf4maq5"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:07:19 ["rolg3qaf4maq5"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2022-12-11 10:07:19 ["rolg3qaf4maq5"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2022-12-11 10:07:19 ["rolg3qaf4maq5"] service NOTICE: Client SPARQL query (html special chars encoded):
+select * where { ?s ?p ?o. }
+2022-12-11 10:07:19 ["rolg3qaf4maq5"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [aeroport_iata] => AGA
+)
+
+2022-12-11 10:07:19 ["rolg3qaf4maq5"] service NOTICE: Web API query string: https://app.goflightlabs.com/advanced-real-time-flights?access_key=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI0IiwianRpIjoiYzA1YWI5ODRiM2ZjMzg1NTVjNjgzZjEzMzRhYjA2NzU4OTk4ZGE2MGQ0OGM0OTIzNzIxMmVjNzAxOTM5ZGQ5OGQ0OGJhZjA0ZjQ2YTRhOWIiLCJpYXQiOjE2NzAyMjg3ODQsIm5iZiI6MTY3MDIyODc4NCwiZXhwIjoxNzAxNzY0Nzg0LCJzdWIiOiIxOTEwOCIsInNjb3BlcyI6W119.XYSGIskzdtgoVnX7rIEaquOrrvzrECJMu42_R4LkKVUXEqXmlQy2RqSvXpcsGz1OkUkR8hWZYfklwlZ4mg_Fxg&arrIata=AGA
+2022-12-11 10:07:19 ["rolg3qaf4maq5"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2022-12-11 10:07:19 ["rolg3qaf4maq5"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 10:07:19 ["rolg3qaf4maq5"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2022-12-11 10:07:19 ["rolg3qaf4maq5"] service NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:08:53 ["d9t544j3kmhge"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:08:53 ["d9t544j3kmhge"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:08:53 ["d9t544j3kmhge"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:08:53 ["d9t544j3kmhge"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:08:53 ["d9t544j3kmhge"] Utils NOTICE: Query HTTP header "Accept": */*
+2022-12-11 10:08:53 ["d9t544j3kmhge"] Utils WARNING: Unsupported HTTP method OPTIONS
+2022-12-11 10:08:53 ["d9t544j3kmhge"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:08:54 ["crfi42ip595ic"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:08:54 ["crfi42ip595ic"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:08:54 ["crfi42ip595ic"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:08:54 ["crfi42ip595ic"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2022-12-11 10:08:54 ["crfi42ip595ic"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2022-12-11 10:08:54 ["crfi42ip595ic"] service NOTICE: Client SPARQL query (html special chars encoded):
+select * where { ?s ?p ?o. }
+2022-12-11 10:08:54 ["crfi42ip595ic"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [aeroport_iata] => AGA
+)
+
+2022-12-11 10:08:54 ["crfi42ip595ic"] service NOTICE: Web API query string: https://app.goflightlabs.com/advanced-real-time-flights?access_key=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI0IiwianRpIjoiYzA1YWI5ODRiM2ZjMzg1NTVjNjgzZjEzMzRhYjA2NzU4OTk4ZGE2MGQ0OGM0OTIzNzIxMmVjNzAxOTM5ZGQ5OGQ0OGJhZjA0ZjQ2YTRhOWIiLCJpYXQiOjE2NzAyMjg3ODQsIm5iZiI6MTY3MDIyODc4NCwiZXhwIjoxNzAxNzY0Nzg0LCJzdWIiOiIxOTEwOCIsInNjb3BlcyI6W119.XYSGIskzdtgoVnX7rIEaquOrrvzrECJMu42_R4LkKVUXEqXmlQy2RqSvXpcsGz1OkUkR8hWZYfklwlZ4mg_Fxg&arrIata=AGA
+2022-12-11 10:08:54 ["crfi42ip595ic"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2022-12-11 10:08:54 ["crfi42ip595ic"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 10:08:54 ["crfi42ip595ic"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2022-12-11 10:08:54 ["crfi42ip595ic"] service NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:09:01 ["nmm4o658jtpek"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:09:01 ["nmm4o658jtpek"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:09:01 ["nmm4o658jtpek"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:09:01 ["nmm4o658jtpek"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:09:01 ["nmm4o658jtpek"] Utils NOTICE: Query HTTP header "Accept": */*
+2022-12-11 10:09:01 ["nmm4o658jtpek"] Utils WARNING: Unsupported HTTP method OPTIONS
+2022-12-11 10:09:01 ["nmm4o658jtpek"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:09:01 ["f93mq4s956itt"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:09:01 ["f93mq4s956itt"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:09:01 ["f93mq4s956itt"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:09:01 ["f93mq4s956itt"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2022-12-11 10:09:01 ["f93mq4s956itt"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2022-12-11 10:09:01 ["f93mq4s956itt"] service NOTICE: Client SPARQL query (html special chars encoded):
+select * where { ?s ?p ?o. }
+2022-12-11 10:09:01 ["f93mq4s956itt"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [aeroport_iata] => AGA
+)
+
+2022-12-11 10:09:01 ["f93mq4s956itt"] service NOTICE: Web API query string: https://app.goflightlabs.com/advanced-real-time-flights?access_key=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI0IiwianRpIjoiYzA1YWI5ODRiM2ZjMzg1NTVjNjgzZjEzMzRhYjA2NzU4OTk4ZGE2MGQ0OGM0OTIzNzIxMmVjNzAxOTM5ZGQ5OGQ0OGJhZjA0ZjQ2YTRhOWIiLCJpYXQiOjE2NzAyMjg3ODQsIm5iZiI6MTY3MDIyODc4NCwiZXhwIjoxNzAxNzY0Nzg0LCJzdWIiOiIxOTEwOCIsInNjb3BlcyI6W119.XYSGIskzdtgoVnX7rIEaquOrrvzrECJMu42_R4LkKVUXEqXmlQy2RqSvXpcsGz1OkUkR8hWZYfklwlZ4mg_Fxg&arrIata=AGA
+2022-12-11 10:09:01 ["f93mq4s956itt"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2022-12-11 10:09:01 ["f93mq4s956itt"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 10:09:01 ["f93mq4s956itt"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2022-12-11 10:09:01 ["f93mq4s956itt"] service NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:15:51 ["vnqrjrgdps733"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:15:51 ["vnqrjrgdps733"] service NOTICE: Query parameter (html special chars encoded) 'service': deezer/findAlbums
+2022-12-11 10:15:51 ["vnqrjrgdps733"] Utils WARNING: service deezer/findAlbums not found.
+2022-12-11 10:15:51 ["vnqrjrgdps733"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:15:51 ["odi1ohdleg34t"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:15:51 ["odi1ohdleg34t"] service NOTICE: Query parameter (html special chars encoded) 'service': deezer/findAlbums
+2022-12-11 10:15:51 ["odi1ohdleg34t"] Utils WARNING: service deezer/findAlbums not found.
+2022-12-11 10:15:51 ["odi1ohdleg34t"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:22:53 ["u59870gvsf1tc"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:22:53 ["u59870gvsf1tc"] service NOTICE: Query parameter (html special chars encoded) 'service': deezer/findAlbums
+2022-12-11 10:22:53 ["u59870gvsf1tc"] Utils WARNING: service deezer/findAlbums not found.
+2022-12-11 10:22:53 ["u59870gvsf1tc"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:22:53 ["lrafg3k5urcnq"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:22:53 ["lrafg3k5urcnq"] service NOTICE: Query parameter (html special chars encoded) 'service': deezer/findAlbums
+2022-12-11 10:22:53 ["lrafg3k5urcnq"] Utils WARNING: service deezer/findAlbums not found.
+2022-12-11 10:22:53 ["lrafg3k5urcnq"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:23:03 ["5k25benpjk1o9"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:23:03 ["5k25benpjk1o9"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:23:03 ["5k25benpjk1o9"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:23:03 ["5k25benpjk1o9"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2022-12-11 10:23:03 ["5k25benpjk1o9"] Utils NOTICE: Query HTTP header "Accept": */*
+2022-12-11 10:23:03 ["5k25benpjk1o9"] Utils WARNING: Unsupported HTTP method OPTIONS
+2022-12-11 10:23:03 ["5k25benpjk1o9"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2022-12-11 10:23:03 ["odon7ekbgtncd"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2022-12-11 10:23:03 ["odon7ekbgtncd"] service NOTICE: Query parameter (html special chars encoded) 'service': flightlabs/findFlights
+2022-12-11 10:23:03 ["odon7ekbgtncd"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2022-12-11 10:23:03 ["odon7ekbgtncd"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2022-12-11 10:23:03 ["odon7ekbgtncd"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2022-12-11 10:23:03 ["odon7ekbgtncd"] service NOTICE: Client SPARQL query (html special chars encoded):
+select * where { ?s ?p ?o. }
+2022-12-11 10:23:03 ["odon7ekbgtncd"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [aeroport_iata] => AGA
+)
+
+2022-12-11 10:23:03 ["odon7ekbgtncd"] service NOTICE: Web API query string: https://app.goflightlabs.com/advanced-real-time-flights?access_key=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI0IiwianRpIjoiYzA1YWI5ODRiM2ZjMzg1NTVjNjgzZjEzMzRhYjA2NzU4OTk4ZGE2MGQ0OGM0OTIzNzIxMmVjNzAxOTM5ZGQ5OGQ0OGJhZjA0ZjQ2YTRhOWIiLCJpYXQiOjE2NzAyMjg3ODQsIm5iZiI6MTY3MDIyODc4NCwiZXhwIjoxNzAxNzY0Nzg0LCJzdWIiOiIxOTEwOCIsInNjb3BlcyI6W119.XYSGIskzdtgoVnX7rIEaquOrrvzrECJMu42_R4LkKVUXEqXmlQy2RqSvXpcsGz1OkUkR8hWZYfklwlZ4mg_Fxg&arrIata=AGA
+2022-12-11 10:23:04 ["odon7ekbgtncd"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2022-12-11 10:23:04 ["odon7ekbgtncd"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2022-12-11 10:23:04 ["odon7ekbgtncd"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2022-12-11 10:23:04 ["odon7ekbgtncd"] service NOTICE: --------- Done - SPARQL µS execution --------

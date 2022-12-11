@@ -1,0 +1,758 @@
+{
+    "head": { 
+    
+    "vars": [
+    "s", "p", "o"]
+    },
+    "results": { "bindings": [
+    {
+    "s": { "type": "bnode", "value": "b1056"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#aircraft"},
+    "o": { "type": "bnode", "value": "b1065"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1057"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#aircraft"},
+    "o": { "type": "bnode", "value": "b1052"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1058"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#aircraft"},
+    "o": { "type": "bnode", "value": "b1044"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1059"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#aircraft"},
+    "o": { "type": "bnode", "value": "b1036"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1056"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#airline"},
+    "o": { "type": "bnode", "value": "b1064"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1057"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#airline"},
+    "o": { "type": "bnode", "value": "b1051"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1058"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#airline"},
+    "o": { "type": "bnode", "value": "b1043"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1059"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#airline"},
+    "o": { "type": "bnode", "value": "b1067"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1039"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#altitude"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#double", "value": "11278"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1047"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#altitude"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#double", "value": "11278"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1060"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#altitude"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#double", "value": "11887"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1071"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#altitude"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#double", "value": "11278"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1056"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#arrival"},
+    "o": { "type": "bnode", "value": "b1063"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1057"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#arrival"},
+    "o": { "type": "bnode", "value": "b1050"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1058"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#arrival"},
+    "o": { "type": "bnode", "value": "b1042"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1059"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#arrival"},
+    "o": { "type": "bnode", "value": "b1068"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1055"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#data"},
+    "o": { "type": "bnode", "value": "b1056"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1055"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#data"},
+    "o": { "type": "bnode", "value": "b1057"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1055"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#data"},
+    "o": { "type": "bnode", "value": "b1058"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1055"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#data"},
+    "o": { "type": "bnode", "value": "b1059"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1056"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#departure"},
+    "o": { "type": "bnode", "value": "b1062"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1057"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#departure"},
+    "o": { "type": "bnode", "value": "b1049"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1058"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#departure"},
+    "o": { "type": "bnode", "value": "b1041"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1059"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#departure"},
+    "o": { "type": "bnode", "value": "b1069"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1039"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#direction"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#integer", "value": "210"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1047"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#direction"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#integer", "value": "245"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1060"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#direction"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#integer", "value": "211"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1071"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#direction"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#integer", "value": "259"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1056"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#flight"},
+    "o": { "type": "bnode", "value": "b1061"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1057"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#flight"},
+    "o": { "type": "bnode", "value": "b1048"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1058"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#flight"},
+    "o": { "type": "bnode", "value": "b1040"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1059"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#flight"},
+    "o": { "type": "bnode", "value": "b1070"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1056"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#geography"},
+    "o": { "type": "bnode", "value": "b1060"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1057"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#geography"},
+    "o": { "type": "bnode", "value": "b1047"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1058"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#geography"},
+    "o": { "type": "bnode", "value": "b1039"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1059"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#geography"},
+    "o": { "type": "bnode", "value": "b1071"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1038"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#horizontal"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#double", "value": "813.03"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1046"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#horizontal"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#double", "value": "766.73"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1054"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#horizontal"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#double", "value": "844.51"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1072"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#horizontal"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#double", "value": "746.36"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1036"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#iataCode"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "B738"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1041"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#iataCode"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "LIL"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1042"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#iataCode"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "AGA"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1043"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#iataCode"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "X3"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1044"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#iataCode"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "B737"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1049"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#iataCode"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "FKB"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1050"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#iataCode"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "AGA"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1051"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#iataCode"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "FR"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1052"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#iataCode"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "B738"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1062"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#iataCode"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "ORY"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1063"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#iataCode"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "AGA"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1064"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#iataCode"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "AT"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1065"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#iataCode"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "B738"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1067"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#iataCode"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "FR"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1068"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#iataCode"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "AGA"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1069"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#iataCode"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "CIA"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1040"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#iataNumber"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "TB7212"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1048"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#iataNumber"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "FR9293"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1061"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#iataNumber"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "AT665"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1070"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#iataNumber"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "FR4607"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1036"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#icao24"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "4CA8D9"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1044"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#icao24"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "44A832"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1052"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#icao24"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "4CA73B"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1065"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#icao24"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "020057"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1036"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#icaoCode"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "B738"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1041"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#icaoCode"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "LFQQ"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1042"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#icaoCode"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "GMAD"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1043"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#icaoCode"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "TUI"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1044"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#icaoCode"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "B737"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1049"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#icaoCode"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "EDSB"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1050"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#icaoCode"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "GMAD"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1051"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#icaoCode"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "RYR"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1052"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#icaoCode"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "B738"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1062"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#icaoCode"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "LFPO"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1063"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#icaoCode"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "GMAD"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1064"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#icaoCode"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "RAM"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1065"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#icaoCode"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "B738"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1067"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#icaoCode"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "RYR"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1068"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#icaoCode"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "GMAD"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1069"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#icaoCode"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "LIRA"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1040"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#icaoNumber"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "JAF1LK"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1048"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#icaoNumber"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "RYR1EJ"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1061"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#icaoNumber"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "RAM665Z"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1070"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#icaoNumber"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "RYR4607"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1038"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#isGround"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#integer", "value": "0"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1046"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#isGround"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#integer", "value": "0"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1054"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#isGround"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#integer", "value": "0"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1072"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#isGround"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#integer", "value": "0"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1039"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#latitude"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#double", "value": "41.770"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1047"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#latitude"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#double", "value": "41.960"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1060"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#latitude"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#double", "value": "39.010"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1071"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#latitude"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#double", "value": "40.140"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1039"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#longitude"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#double", "value": "-2.4800"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1047"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#longitude"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#double", "value": "3.2600"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1060"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#longitude"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#double", "value": "-4.5000"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1071"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#longitude"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#double", "value": "6.0100"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1040"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#number"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "7212"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1048"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#number"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "9293"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1061"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#number"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "665"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1070"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#number"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "4607"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1036"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#regNumber"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "EI-ENN"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1044"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#regNumber"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "OO-JAR"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1052"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#regNumber"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "EI-EBS"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1065"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#regNumber"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "CN-RNZ"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1056"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#speed"},
+    "o": { "type": "bnode", "value": "b1054"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1057"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#speed"},
+    "o": { "type": "bnode", "value": "b1046"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1058"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#speed"},
+    "o": { "type": "bnode", "value": "b1038"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1059"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#speed"},
+    "o": { "type": "bnode", "value": "b1072"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1056"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#status"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "en-route"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1057"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#status"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "en-route"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1058"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#status"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "en-route"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1059"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#status"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "en-route"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1055"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#success"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#boolean", "value": "true"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1056"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#system"},
+    "o": { "type": "bnode", "value": "b1053"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1057"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#system"},
+    "o": { "type": "bnode", "value": "b1045"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1058"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#system"},
+    "o": { "type": "bnode", "value": "b1037"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1059"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#system"},
+    "o": { "type": "bnode", "value": "b1066"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1037"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#updated"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#integer", "value": "1670674880"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1045"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#updated"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#integer", "value": "1670674883"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1053"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#updated"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#integer", "value": "1670674881"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1066"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#updated"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#integer", "value": "1670674864"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1038"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#vspeed"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#integer", "value": "0"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1046"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#vspeed"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#integer", "value": "0"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1054"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#vspeed"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#integer", "value": "0"}
+    }
+    ,
+    {
+    "s": { "type": "bnode", "value": "b1072"},
+    "p": { "type": "uri", "value": "http://ns.inria.fr/sparql-micro-service/api#vspeed"},
+    "o": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#integer", "value": "0"}
+    }
+    ] }
+    }
