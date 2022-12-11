@@ -12,7 +12,6 @@ This SPARQL micro-service searches flights on [Goflightlabs](https://www.gofligh
 To start running SPARQL micro-services, place in api_lifting folder where you will run docker-compose, and set file access rights as demonstrated below so that the Docker container can read/write the necessary files and folders.
 
 ```bash
-unzip environment.zip
 chmod -R 755 services
 chmod -R 755 config
 chmod -R 777 logs
