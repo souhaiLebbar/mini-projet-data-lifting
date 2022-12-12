@@ -20,19 +20,19 @@ flight:iataNumber rdf:type owl:DatatypeProperty ;
     rdfs:comment "The flight identifier (2-letter IATA code of airline plus number of flight)."^^xsd:string ;
     rdfs:domain flight:Flight ;
     rdfs:label "iata Number" ;
-    rdfs:range xsd:string ;
+    rdfs:range xsd:string .
 
 flight:icaoNumber rdf:type owl:DatatypeProperty ;
     rdfs:comment "The flight identifier (3-letter ICAO code of airline plus number of flight plus letter)."^^xsd:string ;
     rdfs:domain flight:Flight ;
     rdfs:label "icao Number" ;
-    rdfs:range xsd:string ;
+    rdfs:range xsd:string .
 
 flight:number rdf:type owl:DatatypeProperty ;
     rdfs:comment "The flight number."^^xsd:string ;
     rdfs:domain flight:Flight ;
     rdfs:label "Number" ;
-    rdfs:range xsd:string ;
+    rdfs:range xsd:string .
 
 flight:status rdf:type owl:DatatypeProperty ;
     rdfs:comment "The status of the flight."^^xsd:string ;
@@ -48,27 +48,27 @@ flight:altitude rdf:type owl:DatatypeProperty ;
     rdfs:comment "The altitude (in meters) of the aircraft at the given time." ;
     rdfs:domain flight:Geography ;
     rdfs:label "Altitude" ;
-    rdfs:range xsd:double ;
+    rdfs:range xsd:double .
 
 flight:direction rdf:type owl:DatatypeProperty ;
-    rdfs:comment "The direction (in degrees) of the aircraft at the given time."
+    rdfs:comment "The direction (in degrees) of the aircraft at the given time.";
     rdfs:domain flight:Geography ;
     rdfs:label "Direction" ;
-    rdfs:range xsd:integer ;
+    rdfs:range xsd:integer .
 
 flight:latitude rdf:type owl:DatatypeProperty ;
     rdfs:comment "The latitude coordinate associated with the aircraft location." ;
     rdfs:domain flight:Geography ;
     rdfs:label "Latitude" ;
-    rdfs:range xsd:double ;
+    rdfs:range xsd:double .
 
 flight:longitude rdf:type owl:DatatypeProperty ;
     rdfs:comment "The longitude coordinate associated with the aircraft location." ;
     rdfs:domain flight:Geography ;
     rdfs:label "Longitude" ;
-    rdfs:range xsd:double ;
+    rdfs:range xsd:double .
 
-flight:Speed a rdf:type owl:Class ;
+flight:Speed rdf:type owl:Class ;
     rdfs:comment "The speed (in kilometers per hour) of the aircraft."^^xsd:string ;
     rdfs:label "Speed"^^xsd:string .
 
@@ -230,11 +230,10 @@ flight:Geography7212 a flight:Geography;
     flight:latitude "4.177E1"^^xsd:double ;
     flight:longitude "-2.48E0"^^xsd:double .
 
-
 nas:JAFFlight7212 a atm:Flight;
     flight:iataNumber "TB7212"^^xsd:string ;
     flight:icaoNumber "JAF1LK"^^xsd:string ;
-    flight:number "7212"^^xsd:string .
+    flight:number "7212"^^xsd:string ;
     atm:departureAirport nas:LILAirport;
     atm:arrivalAirport nas:AGAAirport;
     atm:operatedBy nas:TUIairline;
@@ -254,7 +253,7 @@ flight:Geography4607 a flight:Geography;
 nas:RYRFlight4607 a atm:Flight;
     flight:iataNumber "FR4607"^^xsd:string ;
     flight:icaoNumber "RYR4607"^^xsd:string ;
-    flight:number "4607"^^xsd:string .
+    flight:number "4607"^^xsd:string ;
     atm:departureAirport nas:CIAAirport;
     atm:arrivalAirport nas:AGAAirport;
     atm:operatedBy nas:RYRairline;
